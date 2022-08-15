@@ -69,6 +69,9 @@ function Home() {
 
   return (
     <main id="home" className="container mx-auto max-width section md:flex justify-between items-center">
+      <div className="mt-5 md:mt-0">
+        <img ref={myimageref} className="md:bg-gradient-to-r rounded-full hover:border-x-indigo-100 h-90 w-80 border-4 border-indigo-200 border-x-indigo-500" src={img} alt="Pavan MG" />
+      </div>
       <div>
         <h1
           ref={h11}
@@ -95,9 +98,7 @@ function Home() {
           {tagline1}
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="md:bg-gradient-to-r rounded-full hover:border-x-indigo-100 h-90 w-80 border-4 border-indigo-200 border-x-indigo-500" src={img} alt="Pavan MG" />
-      </div>
+     
     </main>
   );
 }
