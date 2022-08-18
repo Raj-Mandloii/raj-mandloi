@@ -16,6 +16,8 @@ function Technologies() {
     chakra,
     studio,
     flutter,
+    vercel,
+    netlify,
   } = techStackDetails;
   return (
     <main id="technologies" className="container mx-auto max-width pt-10 pb-20 ">
@@ -37,6 +39,8 @@ function Technologies() {
         <img style={{ width: "7em" }} src={dart} title="Dart" alt="Dart" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
          <img style={{ marginTop: "3em", marginBottom: "3em", width: "22em" }} src={chakra} title="Chakra -UI" alt="Chakra" />
+         <img style={{ marginTop: "3em", marginBottom: "3em", width: "22em" }} src={vercel} title="Vercel" alt="Chakra" />
+         <img style={{ marginTop: "3em", marginBottom: "3em", width: "22em" }} src={netlify} title="Netlify" alt="Chakra" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

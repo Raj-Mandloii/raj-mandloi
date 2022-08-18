@@ -20,6 +20,8 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import chakra from "./assets/techstack/chakra.png";
 import flutter from "./assets/techstack/flutter.png";
+import vercel from "./assets/techstack/vercel.png";
+import netlify from "./assets/techstack/netlify.png";
 
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
@@ -103,6 +105,8 @@ export const techStackDetails = {
   github: github,
   chakra: chakra,
   flutter: flutter,
+  vercel: vercel,
+  netlify: netlify,
 };
 
 // Enter your Project Details here
