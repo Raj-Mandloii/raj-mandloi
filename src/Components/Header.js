@@ -15,7 +15,7 @@ function Header() {
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
         <h1
-          className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-4xl xl:text-base xl:leading-tight font-bold"
+          className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-sm xl:text-base xl:leading-tight font-bold"
         >
           {"[ { Raj Mandloi } ]"}
         </h1>

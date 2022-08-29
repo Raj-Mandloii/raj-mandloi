@@ -1,9 +1,8 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
-import {Link,NavLink} from "react-router-dom"
 
-function Projects() {
+function MoreProjects() {
   return (
     <main className="container mx-auto max-width pt-10 mb-20">
       <section>
@@ -32,16 +31,14 @@ function Projects() {
         
 
       </section>
-      {/* <NavLink to={"/moreprojects"}>
-      <div className="flex justify-center mt-12"> */}
+      {/* <div className="flex justify-center mt-12">
       
-          {/* <a className="snap-center"  target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing"> */}
-            {/* <button className="rounded-lg hover:rounded border-4 border-indigo-500/100 px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg" >MORE</button> */}
-          {/* </a> */}
-        {/* </div>
-      </NavLink> */}
+          <a className="snap-center"  target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing">
+            <button className="rounded-lg hover:rounded border-4 border-indigo-500/100 px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg" >MORE</button>
+          </a>
+        </div> */}
     </main>
   );
 }
 
-export default Projects;
+export default MoreProjects;

@@ -27,7 +27,8 @@ import netlify from "./assets/techstack/netlify.png";
 import maxfasion from "./assets/projects/maxfasion.png";
 import lyst from "./assets/projects/lyst.png";
 import clima from "./assets/projects/clima.jpg";
-import bmi from "./assets/projects/bmi.jpg";
+import hubspot from "./assets/projects/hubspot.png";
+// import bmi from "./assets/projects/bmi.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 
 
@@ -113,6 +114,19 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
+    title: "HubSpot Website - Clone",
+    image: hubspot,
+    description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
+    and customer service. Hubspot was founded by Brian Halligan 
+    and Dharmesh Shah in 2006. HubSpot, Inc. Cambridge, Massachusetts, U.S.`,
+    description2:`Developed along with a team of 5 members in one week.
+    My task was to create a Free Tools page and to show all of HubSpot's free marketing, sales, customer service, CMS, and operations tools..
+    `,
+    techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
+    // previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
     title: "Max Fashion Website - Clone",
     image: maxfasion,
     description: `Max Fashion is an Emirati fashion brand under the banner of the Mumbai-based Landmark Group.
@@ -142,14 +156,7 @@ export const projectDetails = [
     // previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
-  {
-    title: "Body Mass Calculator App",
-    image: bmi,
-    description: `This app calculates Body Mass Index of by taking gender, height, weight, and age of User.`,
-    techstack: "Flutter, Dart",
-    // previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+  
   
   
 ];

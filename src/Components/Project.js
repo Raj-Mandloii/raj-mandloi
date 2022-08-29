@@ -3,16 +3,22 @@ import React from "react";
 function Project({ title, image, description,description2, techstack, previewLink, githubLink }) {
  
   return (
-    <article id="project" className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
+    <article id="project" className="rounded-xl mt-10 overflow-hidden">
+      {/* SHADOW TO USE LATER >>> */}
+      {/*  shadow-xl shadow-slate-300 dark:shadow-slate-900  */}
     {/* // <article className="rounded-xl"> */}
       {/* <div className="object-cover object-center w-20"> */}
-      <img  src={image} alt="" loading="lazy" />
+      <div className="rounded-lg border-dashed border-2 border-sky-500" >
+      <img className="hover:scale-125"  src={image} alt="" loading="lazy" />
+      </div>
+
       {/* </div> */}
-      <div className="dark:bg-dark-card p-4">
+      
+      <div className="dark:bg-dark-card p-4 rounded-b-lg">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
         <p className="text-content pt-4 font-light">{description2}</p>
-        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4 ">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5">
