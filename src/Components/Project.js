@@ -8,8 +8,8 @@ function Project({ title, image, description,description2, techstack, previewLin
       {/*  shadow-xl shadow-slate-300 dark:shadow-slate-900  */}
     {/* // <article className="rounded-xl"> */}
       {/* <div className="object-cover object-center w-20"> */}
-      <div className="rounded-lg border-dashed border-2 border-sky-500" >
-      <img className="hover:scale-125"  src={image} alt="" loading="lazy" />
+      <div className="rounded-lg border-dashed border-2 border-sky-500 " >
+      <img className=""  src={image} alt="" loading="lazy" />
       </div>
 
       {/* </div> */}
