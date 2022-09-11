@@ -12,7 +12,7 @@ function Contact() {
           Contact Me
         </h1>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-10">
         <a href={linkdein} target="_blank" rel="noreferrer noopener">
           <svg
             className="dark:fill-light-heading fill-dark-heading"
