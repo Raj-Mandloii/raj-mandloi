@@ -58,6 +58,7 @@ export const socialMediaUrl = {
   github: "https://github.com/Raj-Mandloii/",
   twitter: "https://twitter.com/_raj_mandloi",
   instagram: "https://www.instagram.com/",
+  gmail:"rajmandloi1232@gmail.com",
 };
 
 // Enter your Work Experience here
@@ -123,8 +124,8 @@ export const projectDetails = [
     My task was to create a Free Tools page and to show all of HubSpot's free marketing, sales, customer service, CMS, and operations tools..
     `,
     techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
-    // previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "clone-hubspot.netlify.app",
+    githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
   },
   {
     title: "Max Fashion Website - Clone",
@@ -133,8 +134,8 @@ export const projectDetails = [
      The brand was first launched in May 2004, in the Middle East in UAE.`,
     description2:`Showed various lists of products on the home page and various clothing categories on respected pages.`,
      techstack: "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
-    previewLink: "https://penitent-bell-5215.vercel.app/",
-    githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone/tree/main/penitent-bell-5215",
+    previewLink: "https://maxfashhion-clone.vercel.app/",
+    githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
   {
     title: "Lyst Fashion Website - Clone",
@@ -154,7 +155,7 @@ export const projectDetails = [
     description2:`Used open weather API to fetch weather information.`,
     techstack: "Flutter, Dart, Geo-Location",
     // previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Raj-Mandloii/Clima-weather-app",
   },
   
   

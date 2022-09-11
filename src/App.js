@@ -28,7 +28,7 @@ function App() {
       <Technologies />
       <hr style={{ margin: "5em" }} />
       <Projects />
-      <hr style={{ margin: "5em",marginTop:"2em",marginBottom:"-0.5em" }} />
+      <hr style={{ margin: "5em",marginTop:"2em",marginBottom:"-5em" }} />
       <Contact />
       <hr style={{ margin: "5em" }} />
       <Footer />
