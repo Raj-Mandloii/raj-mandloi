@@ -65,7 +65,7 @@ function Header() {
             </Link>
           </li>
           <li>
-          <a target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing">
+          <a target="_blank" href="https://drive.google.com/file/d/1QuREFlNjpRHrwZNJ3bJmmbztRbKWtfRH/view">
           <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1">RESUME</button>
           </a>
           
