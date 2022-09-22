@@ -9,28 +9,28 @@ import Technologies from "./Pages/Technologies";
 import MoreProjects from "./Pages/MoreProjects";
 
 function App() {
-  
+
   return (
     <div>
       {/* <Routes basename={process.env.PUBLIC_URL}> */}
-        <Header />
-        <Home />
-        {/* header is the top icons like twitter and linkden  */}
-        <Routes basename={process.env.PUBLIC_URL}>
-          <Route path="/" element={<></>} />
-          <Route path="/moreprojects" element={<MoreProjects/>} />
-          
-        </Routes>
+      <Header />
+      <Home />
+      {/* header is the top icons like twitter and linkden  */}
+      <Routes basename={process.env.PUBLIC_URL}>
+        <Route path="/" element={<></>} />
+        <Route path="/moreprojects" element={<MoreProjects />} />
+
+      </Routes>
       {/* </Routes> */}
-      <hr style={{ margin: "5em" }} />
-      <About  />
-      <hr style={{ margin: "5em" }} />
+      <hr className="mt-10 md:mt-6" />
+      <About />
+      <hr className="mt-0 md:mt-6" />
       <Technologies />
-      <hr style={{ margin: "5em" }} />
+      <hr className="mt-10 md:mt-6" />
       <Projects />
-      <hr style={{ margin: "5em",marginTop:"2em",marginBottom:"-5em" }} />
+      <hr className="mt-10 md:mt-6" />
       <Contact />
-      <hr style={{ margin: "5em" }} />
+      <hr className="mt-10 md:mt-6" />
       <Footer />
 
     </div>

@@ -22,6 +22,10 @@ import chakra from "./assets/techstack/chakra.png";
 import flutter from "./assets/techstack/flutter.png";
 import vercel from "./assets/techstack/vercel.png";
 import netlify from "./assets/techstack/netlify.png";
+// == BACK END IMAGES 
+import node from "./assets/techstack/node.png";
+import express from "./assets/techstack/express.png";
+import mongo from "./assets/techstack/mongodb.png";
 
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
@@ -109,6 +113,12 @@ export const techStackDetails = {
   flutter: flutter,
   vercel: vercel,
   netlify: netlify,
+
+  express: express,
+  node: node,
+  mongo: mongo,
+  
+
 };
 
 // Enter your Project Details here
