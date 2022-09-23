@@ -75,25 +75,25 @@ function Home() {
       <div>
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-xl text-dark-heading dark:text-light-heading md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           Hi,👋<br></br>My Name is<br></br>
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-xl bg-clip-text bg-gradient text-transparent md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-xl text-dark-heading dark:text-light-heading md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           {tagline}
         </h2>
         <h2
           ref={h14}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-xl text-dark-heading dark:text-light-heading md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           {tagline1}
         </h2>

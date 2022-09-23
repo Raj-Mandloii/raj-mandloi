@@ -16,12 +16,14 @@
   @apply pt-28 xl:pt-28 2xl:pt-44;
 }
 .text-content {
-  @apply dark:text-light-content text-dark-content;
+  @apply dark:text-dark-content text-dark-content;
 }
 body {
   overflow-x: hidden;
+  
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
   display: none;
+  
 }

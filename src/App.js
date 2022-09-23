@@ -11,7 +11,10 @@ import MoreProjects from "./Pages/MoreProjects";
 function App() {
 
   return (
-    <div>
+    <div className="dark" style={{
+      backgroundColor: '#193251',
+      
+    }}>
       {/* <Routes basename={process.env.PUBLIC_URL}> */}
       <Header />
       <Home />

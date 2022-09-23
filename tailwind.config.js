@@ -1,14 +1,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         primary: "Poppins, sans-serif",
       },
       colors: {
-        "light-content": "#A7A7A7",
+        "light-content": "#666666",
         "dark-heading": "#1f2428",
-        "dark-content": "#666666",
+        "dark-content": "white",
         "light-heading": "#CCCCCC",
         "dark-mode": "#193251",
         "dark-card": "#0f172a",

@@ -11,13 +11,13 @@ function Header() {
 
  
   return (
-    <header id="header" className="container mx-auto md:flex justify-between py-2 max-width">
+    <header id="header" className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#193251] border-b-2 border-indigo-500">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
         <h1
-          className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-sm xl:text-base xl:leading-tight font-bold"
+          className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-xs xl:text-base xl:leading-tight font-bold"
         >
-          {"[ { Raj Mandloi } ]"}
+          {"[ { Raj } ]"}
         </h1>
           {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
         </NavLink>
