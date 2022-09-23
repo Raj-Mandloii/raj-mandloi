@@ -25,15 +25,15 @@ function App() {
 
       </Routes>
       {/* </Routes> */}
-      <hr className="mt-10 md:mt-6" />
+      {/* <hr className="mt-10 md:mt-6" /> */}
       <About />
-      <hr className="mt-0 md:mt-6" />
+      {/* <hr className="mt-0 md:mt-6" /> */}
       <Technologies />
-      <hr className="mt-10 md:mt-6" />
+      {/* <hr className="mt-10 md:mt-6" /> */}
       <Projects />
-      <hr className="mt-10 md:mt-6" />
+      {/* <hr className="mt-10 md:mt-6" /> */}
       <Contact />
-      <hr className="mt-10 md:mt-6" />
+      {/* <hr className="mt-10 md:mt-6" /> */}
       <Footer />
 
     </div>
