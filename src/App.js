@@ -22,18 +22,11 @@ function App() {
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<></>} />
         <Route path="/moreprojects" element={<MoreProjects />} />
-
-      </Routes>
-      {/* </Routes> */}
-      {/* <hr className="mt-10 md:mt-6" /> */}
+       </Routes>
       <About />
-      {/* <hr className="mt-0 md:mt-6" /> */}
       <Technologies />
-      {/* <hr className="mt-10 md:mt-6" /> */}
       <Projects />
-      {/* <hr className="mt-10 md:mt-6" /> */}
       <Contact />
-      {/* <hr className="mt-10 md:mt-6" /> */}
       <Footer />
 
     </div>
