@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
-import {Link,NavLink} from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 function Projects() {
   return (
@@ -29,16 +29,16 @@ function Projects() {
             )
           )}
         </div>
-        
+
 
       </section>
       {/* <NavLink to={"/moreprojects"}>
       <div className="flex justify-center mt-12"> */}
-      
-          {/* <a className="snap-center"  target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing"> */}
-            {/* <button className="rounded-lg hover:rounded border-4 border-indigo-500/100 px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg" >MORE</button> */}
-          {/* </a> */}
-        {/* </div>
+
+      {/* <a className="snap-center"  target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing"> */}
+      {/* <button className="rounded-lg hover:rounded border-4 border-indigo-500/100 px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg" >MORE</button> */}
+      {/* </a> */}
+      {/* </div>
       </NavLink> */}
     </main>
   );

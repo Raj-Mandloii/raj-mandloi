@@ -14,7 +14,7 @@ function Project({ title, image, description, description2, techstack, previewLi
 
       {/* </div> */}
 
-      <div className="dark:bg-dark-card p-4 rounded-b-lg">
+      <div className="dark:bg-dark-card p-4 rounded-b-lg min-h-full">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
         <p className="text-content pt-4 font-light">{description2}</p>
@@ -56,7 +56,7 @@ function Project({ title, image, description, description2, techstack, previewLi
             </div>
           }
 
-          <div className="flex items-center">
+          <div className="flex items-cente">
             <svg
               className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
               width="20"
@@ -76,8 +76,7 @@ function Project({ title, image, description, description2, techstack, previewLi
               href={githubLink}
               target="_blank"
               rel="noreferrer noopener"
-              className="underline pl-2 font-light dark:text-white"
-            >
+              className="underline pl-2 font-light dark:text-white">
               View Code
             </a>
           </div>

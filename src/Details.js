@@ -140,8 +140,10 @@ export const projectDetails = [
   {
     title: "Max Fashion Website - Clone",
     image: maxfasion,
-    description: `Max Fashion is an Emirati fashion brand under the banner of the Mumbai-based Landmark Group.
-     The brand was first launched in May 2004, in the Middle East in UAE.`,
+    description: `Launched in the UAE in May 2004, Max was established in India in 2006, opening its first store in Indore. 
+    Now, Max India has a reach that extends to over 60 cities. Boasting a loyal customer base of over 5.5 million, Max is the most profitable value fashion format in the region.
+
+    Max offers apparel, footwear and accessories for the entire family - women, men and children. `,
     description2:`Showed various lists of products on the home page and various clothing categories on respected pages.`,
      techstack: "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://maxfashhion-clone.vercel.app/",
@@ -161,7 +163,7 @@ export const projectDetails = [
   {
     title: "Climate App",
     image: clima,
-    description: `Uses user current location to show weather information.`,
+    description: `Uses user current location to show weather information. It allows user to search weather using city name`,
     description2:`Used open weather API to fetch weather information.`,
     techstack: "Flutter, Dart, Geo-Location",
     // previewLink: "https://google.com",
