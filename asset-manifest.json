@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.c53889e2.css",
-    "main.js": "/raj-mandloi/static/js/main.9f301855.js",
+    "main.css": "/raj-mandloi/static/css/main.82ee69e0.css",
+    "main.js": "/raj-mandloi/static/js/main.ca3a4461.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/profile.jpg": "/raj-mandloi/static/media/profile.bc02411670caa5d19ea7.jpg",
     "static/media/hubspot.png": "/raj-mandloi/static/media/hubspot.b0d7d46cc630994ebfc1.png",
-    "static/media/clima.jpg": "/raj-mandloi/static/media/clima.30cd3dfe8ebf1417fd2d.jpg",
+    "static/media/clima.jpg": "/raj-mandloi/static/media/clima.d7062546f3d365abb770.jpg",
     "static/media/vercel.png": "/raj-mandloi/static/media/vercel.da798a550d074b1e47d3.png",
     "static/media/project4.jpg": "/raj-mandloi/static/media/project4.a7b7ed11daa072b234eb.jpg",
     "static/media/netlify.png": "/raj-mandloi/static/media/netlify.48fd0d359e2952c002f6.png",
@@ -17,11 +17,11 @@
     "static/media/node.png": "/raj-mandloi/static/media/node.a4713ff2ca054bf23788.png",
     "static/media/logo2.svg": "/raj-mandloi/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/raj-mandloi/index.html",
-    "main.c53889e2.css.map": "/raj-mandloi/static/css/main.c53889e2.css.map",
-    "main.9f301855.js.map": "/raj-mandloi/static/js/main.9f301855.js.map"
+    "main.82ee69e0.css.map": "/raj-mandloi/static/css/main.82ee69e0.css.map",
+    "main.ca3a4461.js.map": "/raj-mandloi/static/js/main.ca3a4461.js.map"
   },
   "entrypoints": [
-    "static/css/main.c53889e2.css",
-    "static/js/main.9f301855.js"
+    "static/css/main.82ee69e0.css",
+    "static/js/main.ca3a4461.js"
   ]
 }
