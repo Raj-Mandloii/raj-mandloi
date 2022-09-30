@@ -163,7 +163,7 @@ export const projectDetails = [
   {
     title: "Climate App",
     image: clima,
-    description: `Uses user current location to show weather information. It allows user to search weather using city name`,
+    description: `☁ An android app built using flutter that displays and forecast the specific city Weather and Climate for dynamic time event by collecting the data from API that is provided for free by OPENWEATHER site 🌏. On the landing page of the app you will get weather information based on your current location.`,
     description2:`Used open weather API to fetch weather information.`,
     techstack: "Flutter, Dart, Geo-Location",
     // previewLink: "https://google.com",

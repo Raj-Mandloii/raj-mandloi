@@ -21,7 +21,7 @@ function Project({ title, image, description, description2, techstack, previewLi
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4 ">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
-        <div className="flex justify-between items-center mt-5 space-y-[205px]">
+        <div className="flex justify-between items-center mt-5 ">
           {!previewLink ? null :
             <div className="flex items-center">
               <svg
