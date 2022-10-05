@@ -134,7 +134,7 @@ export const projectDetails = [
     My task was to create a Free Tools page and to show all of HubSpot's free marketing, sales, customer service, CMS, and operations tools..
     `,
     techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
-    previewLink: "clone-hubspot.netlify.app",
+    previewLink: "https://clone-hubspot.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
   },
   {
