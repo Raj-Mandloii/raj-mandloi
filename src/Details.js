@@ -30,7 +30,7 @@ import mongo from "./assets/techstack/mongodb.png";
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
 import lyst from "./assets/projects/lyst.png";
-import clima from "./assets/projects/clima.jpg";
+import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
 // import bmi from "./assets/projects/bmi.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
