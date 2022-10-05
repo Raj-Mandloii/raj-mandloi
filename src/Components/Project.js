@@ -8,17 +8,17 @@ function Project({ title, image, description, description2, techstack, previewLi
       {/*  shadow-xl shadow-slate-300 dark:shadow-slate-900  */}
       {/* // <article className="rounded-xl"> */}
       {/* <div className="object-cover object-center w-20"> */}
-      <div className="rounded-lg border-dashed border-2 border-sky-500 hover:bg-sky-700" >
+      <div className="rounded-lg border-dashed border-2 border-sky-500 hover:bg-sky-400 p-1" >
         <img className="" src={image} alt="" loading="lazy" />
       </div>
 
       {/* </div> */}
 
-      <div className="dark:bg-dark-card p-4 rounded-b-lg min-h-full">
+      <div className="bg-indigo-900/100 p-4 rounded-b-lg min-h-full ">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light">{description}</p>
-        <p className="text-content pt-4 font-light">{description2}</p>
-        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4 ">
+        <p className="text-sm text-white pt-4 font-light">{description}</p>
+        <p className="text-sm text-white pt-4 font-light">{description2}</p>
+        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4 text-sm">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5 ">

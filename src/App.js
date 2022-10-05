@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="dark" style={{
-      backgroundColor: '#193251',
+      backgroundColor: '#212121',
       
     }}>
       {/* <Routes basename={process.env.PUBLIC_URL}> */}

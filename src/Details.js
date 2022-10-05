@@ -30,8 +30,9 @@ import mongo from "./assets/techstack/mongodb.png";
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
 import lyst from "./assets/projects/lyst.png";
-import clima from "./assets/projects/clima.jpg";
+import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
+import toggltrack from "./assets/projects/toggltrack.png";
 // import bmi from "./assets/projects/bmi.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 
@@ -124,6 +125,20 @@ export const techStackDetails = {
 // Enter your Project Details here
 
 export const projectDetails = [
+  // {
+  //   title: "HubSpot Website - Clone",
+  //   image: toggltrack,
+  //   description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
+  //   and customer service. Hubspot was founded by Brian Halligan 
+  //   and Dharmesh Shah in 2006. HubSpot, Inc. Cambridge, Massachusetts, U.S.`,
+  //   description2:`Developed along with a team of 5 members in one week.
+  //   My task was to create a Free Tools page and to show all of HubSpot's free marketing, sales, customer service, CMS, and operations tools..
+  //   `,
+  //   techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
+  //   previewLink: "clone-hubspot.netlify.app",
+  //   githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
+  // },
+
   {
     title: "HubSpot Website - Clone",
     image: hubspot,
@@ -154,7 +169,7 @@ export const projectDetails = [
     image: lyst,
     description: `Lyst is a fashion technology company and premium shopping app. For brands and stores,
      The goal is to power success online and drive meaningful direct sales within a highly trusted brand environment.`,
-      description2:`Developed along with a team of 3 members in one week.
+      description2:`Developed along with a team of 5 members in one week.
       My task was to create a landing/home page and header along with navigation to various pages.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/index.html",
