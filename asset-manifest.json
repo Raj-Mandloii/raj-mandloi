@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.e1cce679.css",
-    "main.js": "/raj-mandloi/static/js/main.aa52af96.js",
+    "main.css": "/raj-mandloi/static/css/main.242f6305.css",
+    "main.js": "/raj-mandloi/static/js/main.88d748e6.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
@@ -17,11 +17,11 @@
     "static/media/node.png": "/raj-mandloi/static/media/node.a4713ff2ca054bf23788.png",
     "static/media/logo2.svg": "/raj-mandloi/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/raj-mandloi/index.html",
-    "main.e1cce679.css.map": "/raj-mandloi/static/css/main.e1cce679.css.map",
-    "main.aa52af96.js.map": "/raj-mandloi/static/js/main.aa52af96.js.map"
+    "main.242f6305.css.map": "/raj-mandloi/static/css/main.242f6305.css.map",
+    "main.88d748e6.js.map": "/raj-mandloi/static/js/main.88d748e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1cce679.css",
-    "static/js/main.aa52af96.js"
+    "static/css/main.242f6305.css",
+    "static/js/main.88d748e6.js"
   ]
 }
