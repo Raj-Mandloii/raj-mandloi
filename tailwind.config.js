@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        visibility: ["group-hover"],
         primary: "Poppins, sans-serif",
       },
       colors: {
