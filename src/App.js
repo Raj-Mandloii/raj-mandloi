@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="dark" style={{
       backgroundColor: '#193251',
-      
+
     }}>
       {/* <Routes basename={process.env.PUBLIC_URL}> */}
       <Header />
@@ -22,7 +22,7 @@ function App() {
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<></>} />
         <Route path="/moreprojects" element={<MoreProjects />} />
-       </Routes>
+      </Routes>
       <About />
       <Technologies />
       <Projects />
@@ -51,4 +51,4 @@ function App() {
 // }
 export default App;
 
-// npm run deply <<<< cmd to deploy the latest website
+// npm run deploy <<<< cmd to deploy the latest website

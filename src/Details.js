@@ -32,8 +32,10 @@ import maxfasion from "./assets/projects/maxfasion.png";
 import lyst from "./assets/projects/lyst.png";
 import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
+import toggle from "./assets/projects/toggl.png";
+import reactChat from "./assets/projects/react-chat.png";
 // import bmi from "./assets/projects/bmi.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
+
 
 
 // Logos
@@ -62,7 +64,7 @@ export const socialMediaUrl = {
   github: "https://github.com/Raj-Mandloii/",
   twitter: "https://twitter.com/_raj_mandloi",
   instagram: "https://www.instagram.com/",
-  gmail:"rajmandloi1232@gmail.com",
+  gmail: "rajmandloi1232@gmail.com",
 };
 
 // Enter your Work Experience here
@@ -71,7 +73,7 @@ export const workDetails = [
     Position: "Flutter Developer",
     Company: `SaturnCube Technologies`,
     Location: "Ahmedabad",
-    Image:"https://www.saturncube.com/static/media/SC_logo.e031e07733bb594dba71386039f59fd0.svg",
+    Image: "https://www.saturncube.com/static/media/SC_logo.e031e07733bb594dba71386039f59fd0.svg",
     Type: "Full Time",
     Duration: "September 2021 - February 2022",
   },
@@ -117,7 +119,7 @@ export const techStackDetails = {
   express: express,
   node: node,
   mongo: mongo,
-  
+
 
 };
 
@@ -125,13 +127,38 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
+    title: "Toggl Track - Clone",
+    image: toggle,
+    description: `Toggl Track is a time tracking app that allows you to track your daily activities across different 
+    platforms; providing you with 
+    detailed insights and an opportunity to optimize your workflow.`,
+    description2: `Developed along with a team of 5 members in one week.
+    My task was to create and manage Project, Client, Timer sections and its functionalities.
+    `,
+    techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs",
+    previewLink: "https://toggltrack521.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
+  },
+  {
+    title: "Chat App",
+    image: reactChat,
+    description: `Real time chatting app allows you to communicate with your friends through chat. It enables you to send and receive messages and
+     make it easier, simpler and faster to connect with everyone.`,
+    description2: `This is my personal project, created to get insights on Firebase, manage multiple users in React application. 
+    Worked upon Login, Signup and Chats sections.
+    `,
+    techstack: "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components",
+    previewLink: "https://chat-clone-firebase.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/ChatApp-with-Firebase",
+  },
+  {
     title: "HubSpot Website - Clone",
     image: hubspot,
     description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
-    and customer service. Hubspot was founded by Brian Halligan 
-    and Dharmesh Shah in 2006. HubSpot, Inc. Cambridge, Massachusetts, U.S.`,
-    description2:`Developed along with a team of 5 members in one week.
-    My task was to create a Free Tools page and to show all of HubSpot's free marketing, sales, customer service, CMS, and operations tools..
+    and customer service.`,
+    description2: `Developed along with a team of 5 members in one week.
+    My task was to create a Free Tools page and to show all of HubSpot's 
+    free marketing, sales, customer service, CMS, and operations tools.
     `,
     techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://clone-hubspot.netlify.app/",
@@ -140,12 +167,11 @@ export const projectDetails = [
   {
     title: "Max Fashion Website - Clone",
     image: maxfasion,
-    description: `Launched in the UAE in May 2004, Max was established in India in 2006, opening its first store in Indore. 
-    Now, Max India has a reach that extends to over 60 cities. Boasting a loyal customer base of over 5.5 million, Max is the most profitable value fashion format in the region.
+    description: `Launched in the UAE in May 2004, Max was established in India in 2006, Max is the most profitable value fashion format in the region.
 
     Max offers apparel, footwear and accessories for the entire family - women, men and children. `,
-    description2:`Showed various lists of products on the home page and various clothing categories on respected pages.`,
-     techstack: "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
+    description2: `Showed various lists of products on the home page and various clothing categories on respected pages.`,
+    techstack: "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://maxfashhion-clone.vercel.app/",
     githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
@@ -154,7 +180,7 @@ export const projectDetails = [
     image: lyst,
     description: `Lyst is a fashion technology company and premium shopping app. For brands and stores,
      The goal is to power success online and drive meaningful direct sales within a highly trusted brand environment.`,
-      description2:`Developed along with a team of 3 members in one week.
+    description2: `Developed along with a team of 3 members in one week.
       My task was to create a landing/home page and header along with navigation to various pages.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/index.html",
@@ -163,15 +189,17 @@ export const projectDetails = [
   {
     title: "Climate App",
     image: clima,
-    description: `☁ An android app built using flutter that displays and forecast the specific city Weather and Climate for dynamic time event by collecting the data from API that is provided for free by OPENWEATHER site 🌏. On the landing page of the app you will get weather information based on your current location.`,
-    description2:`Used open weather API to fetch weather information.`,
-    techstack: "Flutter, Dart, Geo-Location",
+    description: `☁ An android app built using flutter that displays and forecast the specific city Weather and Climate for dynamic 
+    time event by collecting the data from API that is provided for free by OPENWEATHER site 🌏.`,
+    description2: `Used open weather API to fetch weather information.  
+    On the landing page of the app you will get weather information based on your current location.`,
+    techstack: `Flutter, Dart, Geo-Location`,
     // previewLink: "https://google.com",
     githubLink: "https://github.com/Raj-Mandloii/Clima-weather-app",
   },
-  
-  
-  
+
+
+
 ];
 
 // Enter your Contact Details here
