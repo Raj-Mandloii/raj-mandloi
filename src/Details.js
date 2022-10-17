@@ -175,17 +175,17 @@ export const projectDetails = [
     previewLink: "https://maxfashhion-clone.vercel.app/",
     githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
-  {
-    title: "Lyst Fashion Website - Clone",
-    image: lyst,
-    description: `Lyst is a fashion technology company and premium shopping app. For brands and stores,
-     The goal is to power success online and drive meaningful direct sales within a highly trusted brand environment.`,
-    description2: `Developed along with a team of 3 members in one week.
-      My task was to create a landing/home page and header along with navigation to various pages.`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/index.html",
-    githubLink: "https://github.com/Raj-Mandloii/lyst_project",
-  },
+  // {
+  //   title: "Lyst Fashion Website - Clone",
+  //   image: lyst,
+  //   description: `Lyst is a fashion technology company and premium shopping app. For brands and stores,
+  //    The goal is to power success online and drive meaningful direct sales within a highly trusted brand environment.`,
+  //   description2: `Developed along with a team of 3 members in one week.
+  //     My task was to create a landing/home page and header along with navigation to various pages.`,
+  //   techstack: "HTML/CSS, JavaScript",
+  //   previewLink: "https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/index.html",
+  //   githubLink: "https://github.com/Raj-Mandloii/lyst_project",
+  // },
   {
     title: "Climate App",
     image: clima,
