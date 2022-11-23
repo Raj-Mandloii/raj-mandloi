@@ -34,6 +34,7 @@ import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
 import toggle from "./assets/projects/toggl.png";
 import reactChat from "./assets/projects/react-chat.png";
+import notetaking from "./assets/projects/note-taking.png";
 // import bmi from "./assets/projects/bmi.jpg";
 
 
@@ -135,7 +136,7 @@ export const projectDetails = [
     description2: `Developed along with a team of 5 members in one week.
     My task was to create and manage Project, Client, Timer sections and its functionalities.
     `,
-    techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs",
+    techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs.",
     previewLink: "https://toggltrack521.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
   },
@@ -147,9 +148,19 @@ export const projectDetails = [
     description2: `This is my personal project, created to get insights on Firebase, manage multiple users in React application. 
     Worked upon Login, Signup and Chats sections.
     `,
-    techstack: "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components",
+    techstack: "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components.",
     previewLink: "https://chat-clone-firebase.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/ChatApp-with-Firebase",
+  },
+  {
+    title: "Note Taking App",
+    image: notetaking,
+    description: `It allows user to take, update and delete notes and various important task and events, and user can also filter various notes 
+    based on title and various tags. User can create various tags related to events and also can delete any tag directly.`,
+    description2: `Developed this project to attain basic understanding of various functions and fundamentals of Type-Script`,
+    techstack: "HTML/CSS, Typescript, React, Bootstrap.",
+    previewLink: "https://note-taking-typescript-app.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",
   },
   {
     title: "HubSpot Website - Clone",
@@ -175,17 +186,6 @@ export const projectDetails = [
     previewLink: "https://maxfashhion-clone.vercel.app/",
     githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
-  // {
-  //   title: "Lyst Fashion Website - Clone",
-  //   image: lyst,
-  //   description: `Lyst is a fashion technology company and premium shopping app. For brands and stores,
-  //    The goal is to power success online and drive meaningful direct sales within a highly trusted brand environment.`,
-  //   description2: `Developed along with a team of 3 members in one week.
-  //     My task was to create a landing/home page and header along with navigation to various pages.`,
-  //   techstack: "HTML/CSS, JavaScript",
-  //   previewLink: "https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/index.html",
-  //   githubLink: "https://github.com/Raj-Mandloii/lyst_project",
-  // },
   {
     title: "Climate App",
     image: clima,
@@ -193,7 +193,7 @@ export const projectDetails = [
     time event by collecting the data from API that is provided for free by OPENWEATHER site 🌏.`,
     description2: `Used open weather API to fetch weather information.  
     On the landing page of the app you will get weather information based on your current location.`,
-    techstack: `Flutter, Dart, Geo-Location`,
+    techstack: `Flutter, Dart, Geo-Location.`,
     // previewLink: "https://google.com",
     githubLink: "https://github.com/Raj-Mandloii/Clima-weather-app",
   },
