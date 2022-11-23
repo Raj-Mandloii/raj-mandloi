@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.fde1f489.css",
-    "main.js": "/raj-mandloi/static/js/main.d484a584.js",
+    "main.css": "/raj-mandloi/static/css/main.2a1b7125.css",
+    "main.js": "/raj-mandloi/static/js/main.038172aa.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
@@ -9,6 +9,7 @@
     "static/media/profile.jpeg": "/raj-mandloi/static/media/profile.92c8d522f43bf904c57f.jpeg",
     "static/media/toggl.png": "/raj-mandloi/static/media/toggl.f0c6565e25b548e2db6b.png",
     "static/media/react-chat.png": "/raj-mandloi/static/media/react-chat.4af8a669a2c7c8c95679.png",
+    "static/media/note-taking.png": "/raj-mandloi/static/media/note-taking.e5b34db6ad472bd49dfd.png",
     "static/media/vercel.png": "/raj-mandloi/static/media/vercel.da798a550d074b1e47d3.png",
     "static/media/netlify.png": "/raj-mandloi/static/media/netlify.48fd0d359e2952c002f6.png",
     "static/media/android-studio.png": "/raj-mandloi/static/media/android-studio.b58abcbd61c8640af3ae.png",
@@ -19,11 +20,11 @@
     "static/media/logo2.svg": "/raj-mandloi/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
-    "main.fde1f489.css.map": "/raj-mandloi/static/css/main.fde1f489.css.map",
-    "main.d484a584.js.map": "/raj-mandloi/static/js/main.d484a584.js.map"
+    "main.2a1b7125.css.map": "/raj-mandloi/static/css/main.2a1b7125.css.map",
+    "main.038172aa.js.map": "/raj-mandloi/static/js/main.038172aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde1f489.css",
-    "static/js/main.d484a584.js"
+    "static/css/main.2a1b7125.css",
+    "static/js/main.038172aa.js"
   ]
 }
