@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 import MoreProjects from "./Pages/MoreProjects";
+import { GitStates } from "./Components/GitStates";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       </Routes>
       <About />
       <Technologies />
+      <GitStates/>
       <Projects />
       <Contact />
       <Footer />
