@@ -142,11 +142,9 @@ export const projectDetails = [
     title: "Toggl Track - Clone",
     image: toggle,
     description: `Toggl Track is a time tracking app that allows you to track your daily activities across different 
-    platforms; providing you with 
-    detailed insights and an opportunity to optimize your workflow.`,
+    platforms; providing you with detailed insights and an opportunity to optimize your workflow.`,
     description2: `Developed along with a team of 5 members in one week.
-    My task was to create and manage Project, Client, Timer sections and its functionalities.
-    `,
+    My task was to create and manage Project, Client, Timer sections and its functionalities.`,
     techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs.",
     previewLink: "https://toggltrack521.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
