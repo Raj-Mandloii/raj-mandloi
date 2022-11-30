@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.2a1b7125.css",
-    "main.js": "/raj-mandloi/static/js/main.038172aa.js",
+    "main.css": "/raj-mandloi/static/css/main.607ec315.css",
+    "main.js": "/raj-mandloi/static/js/main.d8bc2112.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
+    "static/media/whatsapp.png": "/raj-mandloi/static/media/whatsapp.c00b43ad53f36dca9ece.png",
     "static/media/hubspot.png": "/raj-mandloi/static/media/hubspot.b0d7d46cc630994ebfc1.png",
     "static/media/profile.jpeg": "/raj-mandloi/static/media/profile.92c8d522f43bf904c57f.jpeg",
     "static/media/toggl.png": "/raj-mandloi/static/media/toggl.f0c6565e25b548e2db6b.png",
@@ -20,11 +21,11 @@
     "static/media/logo2.svg": "/raj-mandloi/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
-    "main.2a1b7125.css.map": "/raj-mandloi/static/css/main.2a1b7125.css.map",
-    "main.038172aa.js.map": "/raj-mandloi/static/js/main.038172aa.js.map"
+    "main.607ec315.css.map": "/raj-mandloi/static/css/main.607ec315.css.map",
+    "main.d8bc2112.js.map": "/raj-mandloi/static/js/main.d8bc2112.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a1b7125.css",
-    "static/js/main.038172aa.js"
+    "static/css/main.607ec315.css",
+    "static/js/main.d8bc2112.js"
   ]
 }
