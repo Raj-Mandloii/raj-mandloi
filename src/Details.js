@@ -35,6 +35,7 @@ import hubspot from "./assets/projects/hubspot.png";
 import toggle from "./assets/projects/toggl.png";
 import reactChat from "./assets/projects/react-chat.png";
 import notetaking from "./assets/projects/note-taking.png";
+import whatsapp from "./assets/projects/whatsapp.png";
 // import bmi from "./assets/projects/bmi.jpg";
 
 
@@ -128,6 +129,16 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
+    title: "WhatsApp Web Clone",
+    image: whatsapp,
+    description: `A complete clone of WhatsApp app created within a time span of 4 days. Users will able to send message and file and also able to see the status of person
+    whether he is online or not.`,
+    description2: `Developed this project to attain basic understanding of Socket.io, Node.js, MongoDB relations and Google OAUth`,
+    techstack: "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+    previewLink: "https://whats-app-clone-reactjs.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
+  },
+  {
     title: "Toggl Track - Clone",
     image: toggle,
     description: `Toggl Track is a time tracking app that allows you to track your daily activities across different 
@@ -162,6 +173,7 @@ export const projectDetails = [
     previewLink: "https://note-taking-typescript-app.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",
   },
+  
   {
     title: "HubSpot Website - Clone",
     image: hubspot,
