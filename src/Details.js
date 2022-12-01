@@ -128,16 +128,7 @@ export const techStackDetails = {
 // Enter your Project Details here
 
 export const projectDetails = [
-  {
-    title: "WhatsApp Web Clone",
-    image: whatsapp,
-    description: `A complete clone of WhatsApp app created within a time span of 4 days. Users will able to send message and file and also able to see the status of person
-    whether he is online or not.`,
-    description2: `Developed this project to attain basic understanding of Socket.io, Node.js, MongoDB relations and Google OAUth`,
-    techstack: "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
-    previewLink: "https://whats-app-clone-reactjs.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
-  },
+  
   {
     title: "Toggl Track - Clone",
     image: toggle,
@@ -148,6 +139,16 @@ export const projectDetails = [
     techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs.",
     previewLink: "https://toggltrack521.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
+  },
+  {
+    title: "WhatsApp Web Clone",
+    image: whatsapp,
+    description: `A complete clone of WhatsApp app created within a time span of 4 days. Users will able to send message and file and also able to see the status of person
+    whether he is online or not.`,
+    description2: `Developed this project to attain basic understanding of Socket.io, Node.js, MongoDB relations and Google OAUth`,
+    techstack: "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+    previewLink: "https://whats-app-clone-reactjs.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
   {
     title: "Chat App",
