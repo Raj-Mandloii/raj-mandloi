@@ -9,6 +9,7 @@ import Technologies from "./Pages/Technologies";
 import MoreProjects from "./Pages/MoreProjects";
 import { GitStates } from "./Components/GitStates";
 
+
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
       </Routes>
       <About />
       <Technologies />
+      
       <GitStates/>
       <Projects />
       <Contact />
