@@ -26,8 +26,10 @@ function App() {
       </Routes>
       <About />
       <Technologies />
-      <GitStates/>
+      <GitStates />
       <Projects />
+
+     
       <Contact />
       <Footer />
 

@@ -28,10 +28,17 @@ function Projects() {
               )
             )
           )}
+
         </div>
 
-
       </section>
+      <div className="flex justify-center mt-5">
+
+        <a target="_blank" href="https://github.com/Raj-Mandloii?tab=repositories" >
+          <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 text-white">More Projects »</button>
+        </a>
+
+      </div>
       {/* <NavLink to={"/moreprojects"}>
       <div className="flex justify-center mt-12"> */}
 

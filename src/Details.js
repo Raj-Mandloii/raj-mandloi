@@ -12,6 +12,7 @@ import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
+import bootstrap from "./assets/techstack/bootstrap.png";
 import dart from "./assets/techstack/dart.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
@@ -121,6 +122,7 @@ export const techStackDetails = {
   express: express,
   node: node,
   mongo: mongo,
+  bootstap:bootstrap
 
 
 };

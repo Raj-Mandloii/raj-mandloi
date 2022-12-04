@@ -67,7 +67,7 @@ function Header() {
           </li>
           <li>
           <a target="_blank" href="https://drive.google.com/file/d/1QuREFlNjpRHrwZNJ3bJmmbztRbKWtfRH/view">
-          <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1">RESUME</button>
+          <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">RESUME</button>
           </a>
           
           </li>
