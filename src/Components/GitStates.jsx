@@ -12,7 +12,7 @@ export const GitStates = () => {
                 <div className='flex justify-center'>
 
                     <img className='place-content-center'
-                        src="https://github-readme-stats.vercel.app/api?username=raj-mandloii&show_icons=true&&countprivate=true&theme=react&hide_title=true"
+                        src="https://github-readme-stats.vercel.app/api?username=Raj-Mandloii&show_icons=true&&countprivate=false&theme=react&hide_title=false"
                         alt="GitHub stats"
                     />
                 </div>

@@ -22,6 +22,7 @@ function Technologies() {
     express,
     node,
     mongo,
+    bootstap
   } = techStackDetails;
   return (
     <main id="technologies" className="container mx-auto max-width pt-10 pb-20 ">
@@ -36,39 +37,43 @@ function Technologies() {
           Front-end
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={html} title="html" alt="" className="w-16"/>
-        <img src={css} title="CSS" alt="" className="w-16"/>
-        <img src={js} title="JavaScript" alt="" className="w-16"/>
-        <img src={react} title="React" alt="" className="w-16"/>
-        <img src={redux} title="Redux" alt="" className="w-16"/>
-        <img src={flutter} title="Flutter" alt="" className="w-16"/>
-        <img className="w-16" src={dart} title="Dart" alt="Dart" />
-        <img src={tailwind} title="Tailwind CSS" alt="" className="w-16"/>
-        <img className="mt-4 w-16" src={chakra} title="Chakra -UI" alt="Chakra" />
+      <section className="mt-5 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+        <DesignBg src={html} title={"HTML"} />
+        <DesignBg src={css} title={"CSS"} />
+        <DesignBg src={js} title={"JavaScript"} />
+        <DesignBg src={react} title={"React"} />
+        <DesignBg src={redux} title={"Redux"} />
+        <DesignBg src={flutter} title={"Flutter"} />
+        <DesignBg src={dart} title={"Dart"} />
+        <DesignBg src={tailwind} title={"Tailwind CSS"} />
+        <DesignBg src={chakra} title={"Chakra -UI"} />
+        <DesignBg src={tailwind} title={"Tailwind CSS"} />
+        <DesignBg src={bootstap} title={"Bootstrap"} />
+
 
       </section>
       <p className="text-white pl-4 mt-4 mb-6 rounded-full py-1 lg:max-w-3xl bg-gradient-to-r from-blue-500 font-bold mt-8">
         Back-end
       </p>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={node} title="Node" alt="Node" className="w-16"/>
-        <img className="ml-4 mr-4 w-16" src={express} title="Express" alt="Express" />
-        <img src={mongo} className="ml-4 mr-4 w-16" title="Mongo Db" alt="" />
+      <section className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+        <DesignBg src={node} title={"Node"} />
+        <DesignBg src={express} title={"Express"} />
+        <DesignBg src={mongo} title={"Mongo DB"} />
+
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h1>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={vscode} title="Visual Studio Code" alt="" className="w-16" />
-        <img src={studio} title="Android-Studio" alt="Android-Studio" className="w-16" />
-        <img src={github} title="Github" alt="Github" className="w-16"/>
-        <img src={npm} title="NPM" alt="NPM" className="w-16"/>
-        <img src={postman} title="Postman" alt="Postman" className="w-16" />
-        <img src={vercel} title="Vercel" alt="Vercel" className="w-16" />
-        <img src={netlify} title="Netlify" alt="Netlify" className="w-16" />
+      <section className="mt-6 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+        <DesignBg src={vscode} title={"Visual Studio Code"} />
+        <DesignBg src={studio} title={"Android-Studio"} />
+        <DesignBg src={github} title={"Github"} />
+        <DesignBg src={npm} title={"NPM"} />
+        <DesignBg src={postman} title={"Postman"} />
+        <DesignBg src={vercel} title={"Vercel"} />
+        <DesignBg src={netlify} title={"Netlify"} />
       </section>
       <br />
       <br />
@@ -84,6 +89,14 @@ function Technologies() {
       </section>
     </main>
   );
+}
+
+function DesignBg({ src, title }) {
+  return (
+    <div className="rounded-lg bg-gradient-to-r from-cyan-900 to-blue-900 m-3 p-4 pt-1 pb-1 h-28  w-24 flex items-center bg-gradient-to-l hover:bg-gradient-to-r shadow-2xl hover:scale-125 ease-in-out duration-200">
+      <img src={src} title={title} alt={title} />
+    </div>
+  )
 }
 
 export default Technologies;
