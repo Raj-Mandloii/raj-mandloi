@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.607ec315.css",
-    "main.js": "/raj-mandloi/static/js/main.8508fa84.js",
+    "main.css": "/raj-mandloi/static/css/main.24ff3444.css",
+    "main.js": "/raj-mandloi/static/js/main.a39ba9b7.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
@@ -11,21 +11,25 @@
     "static/media/toggl.png": "/raj-mandloi/static/media/toggl.f0c6565e25b548e2db6b.png",
     "static/media/react-chat.png": "/raj-mandloi/static/media/react-chat.4af8a669a2c7c8c95679.png",
     "static/media/note-taking.png": "/raj-mandloi/static/media/note-taking.e5b34db6ad472bd49dfd.png",
+    "static/media/bootstrap.png": "/raj-mandloi/static/media/bootstrap.f132cb791703420e69ca.png",
     "static/media/vercel.png": "/raj-mandloi/static/media/vercel.da798a550d074b1e47d3.png",
+    "static/media/react.png": "/raj-mandloi/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/netlify.png": "/raj-mandloi/static/media/netlify.48fd0d359e2952c002f6.png",
     "static/media/android-studio.png": "/raj-mandloi/static/media/android-studio.b58abcbd61c8640af3ae.png",
+    "static/media/node.png": "/raj-mandloi/static/media/node.acba77d3d2487152f588.png",
     "static/media/mongodb.png": "/raj-mandloi/static/media/mongodb.126a91e36a39f28de22e.png",
     "static/media/chakra.png": "/raj-mandloi/static/media/chakra.e4c92a384394912925aa.png",
     "static/media/logo.svg": "/raj-mandloi/static/media/logo.e422ca86014ad14ed818361ce3d7a2a9.svg",
-    "static/media/node.png": "/raj-mandloi/static/media/node.a4713ff2ca054bf23788.png",
+    "static/media/css.png": "/raj-mandloi/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/logo2.svg": "/raj-mandloi/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
+    "static/media/js.png": "/raj-mandloi/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
-    "main.607ec315.css.map": "/raj-mandloi/static/css/main.607ec315.css.map",
-    "main.8508fa84.js.map": "/raj-mandloi/static/js/main.8508fa84.js.map"
+    "main.24ff3444.css.map": "/raj-mandloi/static/css/main.24ff3444.css.map",
+    "main.a39ba9b7.js.map": "/raj-mandloi/static/js/main.a39ba9b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.607ec315.css",
-    "static/js/main.8508fa84.js"
+    "static/css/main.24ff3444.css",
+    "static/js/main.a39ba9b7.js"
   ]
 }
