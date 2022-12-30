@@ -16,6 +16,10 @@ function About() {
         <h1 style={{padding:"0.3rem",color:'#CCCCCC'}} className="rounded-lg text-center text-2xl bg-gradient-to-r from-cyan-500 md:text-4xl xl:text-4xl xl:leading-tight font-bold p-2">
           Work Experience
         </h1>
+
+
+      {/*   ------------------------       Work Experience           -------------------------- */}
+
         {React.Children.toArray(
           workDetails.map(({ Position, Company, Location, Type, Duration }) => (
             <Work
@@ -28,8 +32,12 @@ function About() {
           ))
         )}
       </section>
+
+
+
       {/*   ------------------------       EDUCATION           -------------------------- */}
-      <section>
+
+      {/* <section>
         <h1 style={{padding:"0.3rem",marginTop:"1em",color:'#CCCCCC'}} className="rounded-lg text-center text-2xl bg-gradient-to-r from-cyan-500 md:text-4xl xl:text-4xl xl:leading-tight font-bold p-2">
           Education
         </h1>
@@ -44,7 +52,7 @@ function About() {
             />
           ))
         )}
-      </section>
+      </section> */}
     </main>
   );
 }

@@ -28,8 +28,6 @@ function App() {
       <Technologies />
       <GitStates />
       <Projects />
-
-     
       <Contact />
       <Footer />
 
