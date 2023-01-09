@@ -28,7 +28,7 @@ function Technologies() {
     bootstap
   } = techStackDetails;
   return (
-    <main id="technologies" className="container mx-auto max-width pt-10 pb-10 ">
+    <main id="technologies" className="container mx-auto max-width pt-0 pb-10 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack

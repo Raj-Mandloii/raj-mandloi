@@ -1,26 +1,26 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import {  socialMediaUrl } from "../Details";
-import { Link,animateScroll as scroll,} from 'react-scroll'
-import resumePdf from "../assets/Raj-Mandloi-Resume.pdf"
+import { socialMediaUrl } from "../Details";
+import { Link, animateScroll as scroll } from "react-scroll";
+import resumePdf from "../assets/Raj-Mandloi-Resume.pdf";
 
 function Header() {
- const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const { linkdein, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
 
- 
   return (
-    <header id="header" className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#252A2F] border-b-2 border-indigo-300">
+    <header
+      id="header"
+      className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#252A2F] border-b-2 border-indigo-300"
+    >
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-        <h1
-          className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-xs xl:text-base xl:leading-tight font-bold"
-        >
-          {"[ { Raj } ]"}
-        </h1>
+          <h1 className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-xs xl:text-base xl:leading-tight font-bold">
+            {"[ { Raj } ]"}
+          </h1>
           {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
@@ -39,39 +39,65 @@ function Header() {
               strokeLinejoin="round"
             />
           </svg>
-         
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav
+        className={` ${
+          !isOpen ? "hidden" : null
+        } text-center md:flex justify-between`}
+      >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <Link className="cursor-pointer" smooth={true} to='home'  >
+            <Link className="cursor-pointer" smooth={true} to="home">
               Home
             </Link>
           </li>
           <li className="pb-1 md:pb-0 ">
-          <Link className="cursor-pointer" smooth={true} offset={-100} to='about'   >
+            <Link
+              className="cursor-pointer"
+              smooth={true}
+              offset={-100}
+              to="about"
+            >
               About
             </Link>
           </li>
           <li className="pb-1 md:pb-0">
-          <Link className="cursor-pointer" smooth={true} offset={-100} to='technologies' >Technologies</Link>
+            <Link
+              className="cursor-pointer"
+              smooth={true}
+              offset={-100}
+              to="technologies"
+            >
+              Technologies
+            </Link>
           </li>
           <li className="pb-1 md:pb-0">
-            <Link className="cursor-pointer" to="project" smooth={true} offset={-200}>
+            <Link
+              className="cursor-pointer"
+              to="project"
+              smooth={true}
+              offset={-200}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link className="cursor-pointer" to="contact" smooth={true} offset={-200} >
+            <Link
+              className="cursor-pointer"
+              to="contact"
+              smooth={true}
+              offset={-200}
+            >
               Contact
             </Link>
           </li>
           <li>
-          <a href={resumePdf} download>
-          <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">RESUME</button>
-          </a>
-          
+            <a href={resumePdf} download>
+              <button className="text-white rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">
+                RESUME
+              </button>
+            </a>
           </li>
         </ul>
         {/* <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">

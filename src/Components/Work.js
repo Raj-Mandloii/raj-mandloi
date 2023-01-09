@@ -27,7 +27,7 @@ function Work({ position, company, location, type, duration }) {
           </div>
           <div className="flex items-center">
             <svg
-              className="dark:fill-light-heading fill-dark-heading min-w-fit"
+              className="dark:fill-light-heading fill-dark-heading min-w-fit mt-4 md:mt-0"
               width="16"
               height="12"
               viewBox="0 0 16 12"
@@ -38,7 +38,7 @@ function Work({ position, company, location, type, duration }) {
               <path d="M8.00001 11.25L3.78201 7.51912C3.7234 7.4631 3.66539 7.40673 3.60801 7.35C2.8875 6.63817 2.49826 5.76871 2.50001 4.875C2.50001 3.78098 3.07947 2.73177 4.11092 1.95818C5.14237 1.1846 6.54132 0.75 8.00001 0.75C9.4587 0.75 10.8576 1.1846 11.8891 1.95818C12.9205 2.73177 13.5 3.78098 13.5 4.875C13.5018 5.7683 13.1127 6.63737 12.3925 7.34888L12.392 7.35C12.392 7.35 12.242 7.49775 12.2195 7.51763L8.00001 11.25ZM4.40601 6.89813C4.40701 6.89813 4.52301 7.01362 4.54951 7.03837L8.00001 10.0905L11.455 7.03425C11.477 7.01362 11.594 6.89738 11.5945 6.897C12.1831 6.31542 12.5012 5.60514 12.5 4.875C12.5 3.97989 12.0259 3.12145 11.182 2.48851C10.3381 1.85558 9.19348 1.5 8.00001 1.5C6.80653 1.5 5.66194 1.85558 4.81803 2.48851C3.97411 3.12145 3.50001 3.97989 3.50001 4.875C3.49896 5.60559 3.81739 6.31628 4.40651 6.89813H4.40601Z" />
             </svg>
 
-            <p className="text-content text-xs md:text-sm font-light pl-1">{location}</p>
+            <p className="text-content text-xs md:text-sm font-light pl-1 pt-4 md:pt-0">{location}</p>
           </div>
         </div>
         <p className="text-content text-xs md:text-sm font-light pl-1 min-w-fit">{duration}</p>
