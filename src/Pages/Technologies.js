@@ -6,9 +6,11 @@ function Technologies() {
     html,
     css,
     js,
+    typescript,
     react,
     redux,
     tailwind,
+    nextjs,
     dart,
     vscode,
     github,
@@ -21,11 +23,12 @@ function Technologies() {
     netlify,
     express,
     node,
+    materialui,
     mongo,
     bootstap
   } = techStackDetails;
   return (
-    <main id="technologies" className="container mx-auto max-width pt-10 pb-20 ">
+    <main id="technologies" className="container mx-auto max-width pt-10 pb-10 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
@@ -41,13 +44,15 @@ function Technologies() {
         <DesignBg src={html} title={"HTML"} />
         <DesignBg src={css} title={"CSS"} />
         <DesignBg src={js} title={"JavaScript"} />
+        <DesignBg src={typescript} title={"Typescript"} />
         <DesignBg src={react} title={"React"} />
+        <DesignBg src={nextjs} title={"Nextjs"} />
         <DesignBg src={redux} title={"Redux"} />
         <DesignBg src={flutter} title={"Flutter"} />
         <DesignBg src={dart} title={"Dart"} />
         <DesignBg src={tailwind} title={"Tailwind CSS"} />
-        <DesignBg src={chakra} title={"Chakra -UI"} />
-        <DesignBg src={tailwind} title={"Tailwind CSS"} />
+        <DesignBg src={chakra} title={"Chakra-UI"} />
+        <DesignBg src={materialui} title={"Material-UI"} />
         <DesignBg src={bootstap} title={"Bootstrap"} />
 
 

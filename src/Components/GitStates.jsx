@@ -2,7 +2,7 @@ import React from 'react'
 
 export const GitStates = () => {
     return (
-        <main id="technologies" className="container mx-auto max-width pb-20">
+        <main id="technologies" className="container mx-auto max-width pb-10">
 
             <section className="items-center">
 

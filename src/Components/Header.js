@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {  socialMediaUrl } from "../Details";
 import { Link,animateScroll as scroll,} from 'react-scroll'
+import resumePdf from "../assets/Raj-Mandloi-Resume.pdf"
+
 function Header() {
  const [isOpen, setIsOpen] = useState(false);
   const { linkdein, github, twitter } = socialMediaUrl;
@@ -11,7 +13,7 @@ function Header() {
 
  
   return (
-    <header id="header" className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#193251] border-b-2 border-indigo-500">
+    <header id="header" className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#252A2F] border-b-2 border-indigo-300">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
         <h1
@@ -66,7 +68,7 @@ function Header() {
             </Link>
           </li>
           <li>
-          <a target="_blank" href="https://drive.google.com/file/d/1QuREFlNjpRHrwZNJ3bJmmbztRbKWtfRH/view">
+          <a href={resumePdf} download>
           <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">RESUME</button>
           </a>
           

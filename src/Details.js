@@ -7,11 +7,13 @@ import profile from "./assets/profile.jpeg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-// import sass from "./assets/techstack/sass.png";
+import typescript from "./assets/techstack/ts-logo-256.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
+import nextjs from "./assets/techstack/nextjs.png"
 import tailwind from "./assets/techstack/tailwind.png";
+import materialui from "./assets/techstack/mui.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
 import dart from "./assets/techstack/dart.png";
 import vscode from "./assets/techstack/vscode.png";
@@ -23,7 +25,8 @@ import chakra from "./assets/techstack/chakra.png";
 import flutter from "./assets/techstack/flutter.png";
 import vercel from "./assets/techstack/vercel.png";
 import netlify from "./assets/techstack/netlify.png";
-// == BACK END IMAGES 
+
+// == BACK END IMAGES
 import node from "./assets/techstack/node.png";
 import express from "./assets/techstack/express.png";
 import mongo from "./assets/techstack/mongodb.png";
@@ -38,8 +41,6 @@ import reactChat from "./assets/projects/react-chat.png";
 import notetaking from "./assets/projects/note-taking.png";
 import whatsapp from "./assets/projects/whatsapp.png";
 // import bmi from "./assets/projects/bmi.jpg";
-
-
 
 // Logos
 export const logos = {
@@ -76,7 +77,8 @@ export const workDetails = [
     Position: "Flutter Developer",
     Company: `SaturnCube Technologies`,
     Location: "Ahmedabad",
-    Image: "https://www.saturncube.com/static/media/SC_logo.e031e07733bb594dba71386039f59fd0.svg",
+    Image:
+      "https://www.saturncube.com/static/media/SC_logo.e031e07733bb594dba71386039f59fd0.svg",
     Type: "Full Time",
     Duration: "September 2021 - February 2022",
   },
@@ -115,22 +117,21 @@ export const techStackDetails = {
   studio: studio,
   github: github,
   chakra: chakra,
+  materialui:materialui,
+  nextjs: nextjs,
   flutter: flutter,
   vercel: vercel,
   netlify: netlify,
-
+  typescript: typescript,
   express: express,
   node: node,
   mongo: mongo,
-  bootstap:bootstrap
-
-
+  bootstap: bootstrap,
 };
 
 // Enter your Project Details here
 
 export const projectDetails = [
-  
   {
     title: "Toggl Track - Clone",
     image: toggle,
@@ -138,7 +139,8 @@ export const projectDetails = [
     platforms; providing you with detailed insights and an opportunity to optimize your workflow.`,
     description2: `Developed along with a team of 5 members in one week.
     My task was to create and manage Project, Client, Timer sections and its functionalities.`,
-    techstack: "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs.",
+    techstack:
+      "React, Redux, Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs.",
     previewLink: "https://toggltrack521.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
   },
@@ -148,7 +150,8 @@ export const projectDetails = [
     description: `A complete clone of WhatsApp app created within a time span of 4 days. Users will able to send message and file and also able to see the status of person
     whether he is online or not.`,
     description2: `Developed this project to attain basic understanding of Socket.io, Node.js, MongoDB relations and Google OAUth`,
-    techstack: "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+    techstack:
+      "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
@@ -160,7 +163,8 @@ export const projectDetails = [
     description2: `This is my personal project, created to get insights on Firebase, manage multiple users in React application. 
     Worked upon Login, Signup and Chats sections.
     `,
-    techstack: "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components.",
+    techstack:
+      "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components.",
     previewLink: "https://chat-clone-firebase.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/ChatApp-with-Firebase",
   },
@@ -174,7 +178,7 @@ export const projectDetails = [
     previewLink: "https://note-taking-typescript-app.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",
   },
-  
+
   {
     title: "HubSpot Website - Clone",
     image: hubspot,
@@ -184,7 +188,8 @@ export const projectDetails = [
     My task was to create a Free Tools page and to show all of HubSpot's 
     free marketing, sales, customer service, CMS, and operations tools.
     `,
-    techstack: "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
+    techstack:
+      "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://clone-hubspot.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
   },
@@ -195,7 +200,8 @@ export const projectDetails = [
 
     Max offers apparel, footwear and accessories for the entire family - women, men and children. `,
     description2: `Showed various lists of products on the home page and various clothing categories on respected pages.`,
-    techstack: "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
+    techstack:
+      "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://maxfashhion-clone.vercel.app/",
     githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
@@ -210,9 +216,6 @@ export const projectDetails = [
     // previewLink: "https://google.com",
     githubLink: "https://github.com/Raj-Mandloii/Clima-weather-app",
   },
-
-
-
 ];
 
 // Enter your Contact Details here
