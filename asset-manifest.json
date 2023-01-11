@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raj-mandloi/static/css/main.197a2f3c.css",
-    "main.js": "/raj-mandloi/static/js/main.1c1ee0e7.js",
+    "main.js": "/raj-mandloi/static/js/main.bc1ea8a6.js",
     "static/media/lyst.png": "/raj-mandloi/static/media/lyst.87adb4041eeb325c3db7.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.9a9131c2122d1263ad66.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
@@ -10,7 +10,7 @@
     "static/media/profile.jpeg": "/raj-mandloi/static/media/profile.92c8d522f43bf904c57f.jpeg",
     "static/media/toggl.png": "/raj-mandloi/static/media/toggl.f0c6565e25b548e2db6b.png",
     "static/media/react-chat.png": "/raj-mandloi/static/media/react-chat.4af8a669a2c7c8c95679.png",
-    "static/media/Raj-Mandloi-Resume.pdf": "/raj-mandloi/static/media/Raj-Mandloi-Resume.2d5f6742977b65d8df0d.pdf",
+    "static/media/Raj-Mandloi-Resume.pdf": "/raj-mandloi/static/media/Raj-Mandloi-Resume.f094041e54aa49cde82c.pdf",
     "static/media/note-taking.png": "/raj-mandloi/static/media/note-taking.e5b34db6ad472bd49dfd.png",
     "static/media/bootstrap.png": "/raj-mandloi/static/media/bootstrap.f132cb791703420e69ca.png",
     "static/media/vercel.png": "/raj-mandloi/static/media/vercel.da798a550d074b1e47d3.png",
@@ -28,10 +28,10 @@
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
     "main.197a2f3c.css.map": "/raj-mandloi/static/css/main.197a2f3c.css.map",
-    "main.1c1ee0e7.js.map": "/raj-mandloi/static/js/main.1c1ee0e7.js.map"
+    "main.bc1ea8a6.js.map": "/raj-mandloi/static/js/main.bc1ea8a6.js.map"
   },
   "entrypoints": [
     "static/css/main.197a2f3c.css",
-    "static/js/main.1c1ee0e7.js"
+    "static/js/main.bc1ea8a6.js"
   ]
 }
