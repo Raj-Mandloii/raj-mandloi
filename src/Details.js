@@ -11,7 +11,7 @@ import typescript from "./assets/techstack/ts-logo-256.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
-import nextjs from "./assets/techstack/nextjs.png"
+import nextjs from "./assets/techstack/nextjs.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import materialui from "./assets/techstack/mui.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
@@ -33,13 +33,14 @@ import mongo from "./assets/techstack/mongodb.png";
 
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
-import lyst from "./assets/projects/lyst.png";
+// import lyst from "./assets/projects/lyst.png";
 import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
 import toggle from "./assets/projects/toggl.png";
 import reactChat from "./assets/projects/react-chat.png";
 import notetaking from "./assets/projects/note-taking.png";
 import whatsapp from "./assets/projects/whatsapp.png";
+import ecom from "./assets/projects/e-com.png";
 // import bmi from "./assets/projects/bmi.jpg";
 
 // Logos
@@ -117,7 +118,7 @@ export const techStackDetails = {
   studio: studio,
   github: github,
   chakra: chakra,
-  materialui:materialui,
+  materialui: materialui,
   nextjs: nextjs,
   flutter: flutter,
   vercel: vercel,
@@ -133,10 +134,38 @@ export const techStackDetails = {
 
 export const projectDetails = [
   {
+    title: "E-Commerce Website",
+    image: ecom,
+    description: `E-Commerce is an shopping website built using React, Redux and Nodejs.
+     The combination of these technologies allows for a seamless shopping experience for the user, with fast page loading and real-time updates.`,
+    description2: `The React front-end handles the dynamic rendering of product listings, search 
+    and filtering, and shopping cart, while Redux manages the state of these features in a centralized 
+    store. Node.js handles the back-end logic for communicating with databases.
+    `,
+    techstack:
+      "React, Redux, Redux Thunk Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.",
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+  {
+    title: "WhatsApp Web Clone",
+    image: whatsapp,
+    description: `A WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics 
+    the functionality of the popular messaging platform. React provides a user-friendly interface for the front-end of the application,
+     while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authenticattion.`,
+    description2: `This technology stack offers the right combination of front-end and back-end technologies to build 
+    a feature-rich messaging platform.`,
+    techstack:
+      "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+    previewLink: "https://whats-app-clone-reactjs.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
+  },
+  {
     title: "Toggl Track - Clone",
     image: toggle,
     description: `Toggl Track is a time tracking app that allows you to track your daily activities across different 
-    platforms; providing you with detailed insights and an opportunity to optimize your workflow.`,
+    platforms; providing you with detailed insights and an opportunity to optimize your workflow. A Toggl Track clone built using React, 
+    Redux, and Node.js is a time tracking application designed for individuals and teams to manage their work hours efficiently.`,
     description2: `Developed along with a team of 5 members in one week.
     My task was to create and manage Project, Client, Timer sections and its functionalities.`,
     techstack:
@@ -144,17 +173,7 @@ export const projectDetails = [
     previewLink: "https://toggltrack521.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/TogglTrack",
   },
-  {
-    title: "WhatsApp Web Clone",
-    image: whatsapp,
-    description: `A complete clone of WhatsApp app created within a time span of 4 days. Users will able to send message and file and also able to see the status of person
-    whether he is online or not.`,
-    description2: `Developed this project to attain basic understanding of Socket.io, Node.js, MongoDB relations and Google OAUth`,
-    techstack:
-      "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
-    previewLink: "https://whats-app-clone-reactjs.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
-  },
+
   {
     title: "Chat App",
     image: reactChat,
@@ -173,7 +192,7 @@ export const projectDetails = [
     image: notetaking,
     description: `It allows user to take, update and delete notes and various important task and events, and user can also filter various notes 
     based on title and various tags. User can create various tags related to events and also can delete any tag directly.`,
-    description2: `Developed this project to attain basic understanding of various functions and fundamentals of Type-Script`,
+    description2: `Developed this project within a time span of 2 days and to attain basic understanding of various functions and fundamentals of Type-Script.`,
     techstack: "HTML/CSS, Typescript, React, Bootstrap.",
     previewLink: "https://note-taking-typescript-app.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",

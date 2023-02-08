@@ -1,19 +1,12 @@
 import React from "react";
-
 function Project({ title, image, description, description2, techstack, previewLink, githubLink }) {
 
   return (
     <article id="project" className="rounded-xl mt-10 overflow-hidden hover:scale-105 ease-in-out duration-300">
-      {/* SHADOW TO USE LATER >>> */}
-      {/*  shadow-xl shadow-slate-300 dark:shadow-slate-900  */}
-      {/* // <article className="rounded-xl"> */}
-      {/* <div className="object-cover object-center w-20"> */}
+  
       <div className="rounded-lg border-dashed border-2 border-sky-500 hover:bg-sky-700 p-1" >
         <img className="rounded-lg" src={image} alt="" loading="lazy" />
       </div>
-
-      {/* </div> */}
-      {/* min-h-full   flex flex-col space-y-4*/}
       <div className="dark:bg-dark-card p-4 rounded-b-lg min-h-full">
         <h3 className="dark:text-light-heading font-semibold text-lg pt-0">{title}</h3>
         <p className="text-content pt-2 font-light text-sm">{description}</p>
@@ -21,13 +14,6 @@ function Project({ title, image, description, description2, techstack, previewLi
         <h4 className="text-dark-heading dark:text-light-heading pt-2 text-sm font-bold">
           Tech Stack : <span className="font-light ">{techstack}</span>
         </h4>
-        {/* <div style={{border:'1px solid red'}} className="flex place-content-center">
-          <a target="_blank" href="https://drive.google.com/file/d/1QuREFlNjpRHrwZNJ3bJmmbztRbKWtfRH/view">
-            <button className="bottom-0 rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1">RESUME</button>
-          </a>
-        </div> */}
-
-
         <div className="flex justify-between items-center mt-4">
           {!previewLink ? null :
             <div className="flex items-center">
