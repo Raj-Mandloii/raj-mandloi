@@ -137,12 +137,11 @@ export const projectDetails = [
     title: "E-Commerce Website",
     image: ecom,
     description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    The combination of these technologies allows for a seamless shopping experience for the user, 
-    with fast page loading and real-time updates.`,
-    description2: `The React front-end handles the dynamic rendering of product listings, search and filtering, and shopping carts, while Redux manages the state of these features in a centralized store. Node.js handles the back-end logic for communicating with databases.
-    `,
-    techstack:
-      `Tech Stack: React, Redux, Redux Thunk Chakra UI, 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `Tech Stack: React, Redux, Redux Thunk Chakra UI, 
       React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
     previewLink: "https://e-com-shopping.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
