@@ -136,36 +136,33 @@ export const projectDetails = [
   {
     title: "E-Commerce Website",
     image: ecom,
-    description: `E-Commerce is an shopping website built using React, Redux and Nodejs.
-     The combination of these technologies allows for a seamless shopping experience for the user, with fast page loading and real-time updates.`,
-    description2: `The React front-end handles the dynamic rendering of product listings, search 
-    and filtering, and shopping cart, while Redux manages the state of these features in a centralized 
-    store. Node.js handles the back-end logic for communicating with databases.
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    The combination of these technologies allows for a seamless shopping experience for the user, 
+    with fast page loading and real-time updates.`,
+    description2: `The React front-end handles the dynamic rendering of product listings, search and filtering, and shopping carts, while Redux manages the state of these features in a centralized store. Node.js handles the back-end logic for communicating with databases.
     `,
     techstack:
-      "React, Redux, Redux Thunk Chakra UI , React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.",
+      `Tech Stack: React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
     previewLink: "https://e-com-shopping.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
   },
   {
     title: "WhatsApp Web Clone",
     image: whatsapp,
-    description: `A WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics 
-    the functionality of the popular messaging platform. React provides a user-friendly interface for the front-end of the application,
-     while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authenticattion.`,
-    description2: `This technology stack offers the right combination of front-end and back-end technologies to build 
-    a feature-rich messaging platform.`,
+    description: `WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics the functionality of the popular messaging platform. React provides a user-friendly interface for the front end of the application, while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authentication`,
+    description2: `This technology stack offers the right combination of front-end and back-end technologies to build a feature-rich messaging platform.`,
     techstack:
-      "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+      "Tech Stack: HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
   {
     title: "Toggl Track - Clone",
     image: toggle,
-    description: `Toggl Track is a time tracking app that allows you to track your daily activities across different 
+    description: `Toggl Track is a time-tracking app that allows you to track your daily activities across different 
     platforms; providing you with detailed insights and an opportunity to optimize your workflow. A Toggl Track clone built using React, 
-    Redux, and Node.js is a time tracking application designed for individuals and teams to manage their work hours efficiently.`,
+    Redux and Node.js is a time-tracking application designed for individuals and teams to manage their work hours efficiently.`,
     description2: `Developed along with a team of 5 members in one week.
     My task was to create and manage Project, Client, Timer sections and its functionalities.`,
     techstack:
