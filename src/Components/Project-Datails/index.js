@@ -21,12 +21,13 @@ export default ({
   githubLink,
 }) => (
   <Box
-    // border="1px solid red"
+    border={{ lg: "2px solid #6366F1" }}
+    borderRadius={"lg"}
     maxW="7xl"
     mx="auto"
     px={{ base: "0", lg: "4" }}
     py={{ base: "0", lg: "2" }}
-    mt="0"
+    mt={{ lg: "4",md:"4" }}
   >
     <Stack
       direction={{ base: "column-reverse", lg: "row" }}
@@ -49,7 +50,7 @@ export default ({
       >
         <Stack spacing={{ base: "8", lg: "10" }}>
           <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="md" color="#6366F1" pb="1" mt={{ sm: "4" }}>
+            <Heading size="md" color="#6366F1" pb="1" mt={{ sm: "4" }} textAlign="center">
               {title}
             </Heading>
             <Heading
@@ -111,7 +112,7 @@ export default ({
           </HStack>
         </Stack>
       </Box>
-      <Flex>
+      <Flex alignItems="center">
         <Image
           src={image}
           alt={title}
