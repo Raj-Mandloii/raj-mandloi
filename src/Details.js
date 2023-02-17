@@ -141,7 +141,7 @@ export const projectDetails = [
     description2: `The website is fully responsive and optimized, providing a 
     smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
     e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `Tech Stack: React, Redux, Redux Thunk Chakra UI, 
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
       React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
     previewLink: "https://e-com-shopping.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
@@ -152,7 +152,7 @@ export const projectDetails = [
     description: `WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics the functionality of the popular messaging platform. React provides a user-friendly interface for the front end of the application, while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authentication`,
     description2: `This technology stack offers the right combination of front-end and back-end technologies to build a feature-rich messaging platform.`,
     techstack:
-      "Tech Stack: HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+      "HTML / CSS, Javascript, React, Socket.io, Material-UI, Nodejs, Express, MongoDB.",
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
@@ -179,7 +179,7 @@ export const projectDetails = [
     Worked upon Login, Signup and Chats sections.
     `,
     techstack:
-      "HTML/SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components.",
+      "HTML / SCSS, React, Firebase, React-router-dom, Rest APIs, Styled Components.",
     previewLink: "https://chat-clone-firebase.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/ChatApp-with-Firebase",
   },
@@ -189,7 +189,7 @@ export const projectDetails = [
     description: `It allows user to take, update and delete notes and various important task and events, and user can also filter various notes 
     based on title and various tags. User can create various tags related to events and also can delete any tag directly.`,
     description2: `Developed this project within a time span of 2 days and to attain basic understanding of various functions and fundamentals of Type-Script.`,
-    techstack: "HTML/CSS, Typescript, React, Bootstrap.",
+    techstack: "HTML / CSS, Typescript, React, Bootstrap.",
     previewLink: "https://note-taking-typescript-app.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",
   },
@@ -204,7 +204,7 @@ export const projectDetails = [
     free marketing, sales, customer service, CMS, and operations tools.
     `,
     techstack:
-      "HTML/CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
+      "HTML / CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://clone-hubspot.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
   },
@@ -216,7 +216,7 @@ export const projectDetails = [
     Max offers apparel, footwear and accessories for the entire family - women, men and children. `,
     description2: `Showed various lists of products on the home page and various clothing categories on respected pages.`,
     techstack:
-      "HTML/CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
+      "HTML / CSS, JavaScript, React, Chakra UI , React-router-dom, Axios.",
     previewLink: "https://maxfashhion-clone.vercel.app/",
     githubLink: "https://github.com/Raj-Mandloii/max-fashion-website-clone",
   },
