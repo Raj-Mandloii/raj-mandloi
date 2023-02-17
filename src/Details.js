@@ -141,7 +141,7 @@ export const projectDetails = [
     description2: `The website is fully responsive and optimized, providing a 
     smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
     e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `Tech Stack: React, Redux, Redux Thunk Chakra UI, 
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
       React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
     previewLink: "https://e-com-shopping.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
@@ -152,7 +152,7 @@ export const projectDetails = [
     description: `WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics the functionality of the popular messaging platform. React provides a user-friendly interface for the front end of the application, while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authentication`,
     description2: `This technology stack offers the right combination of front-end and back-end technologies to build a feature-rich messaging platform.`,
     techstack:
-      "Tech Stack: HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
+      "HTML/CSS, Javascript, React, Material-UI, Nodejs, Express, MongoDB.",
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },

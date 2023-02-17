@@ -27,7 +27,6 @@ export default ({
     px={{ base: "0", lg: "4" }}
     py={{ base: "0", lg: "2" }}
     mt="0"
-    
   >
     <Stack
       direction={{ base: "column-reverse", lg: "row" }}
@@ -54,7 +53,7 @@ export default ({
               {title}
             </Heading>
             <Heading
-              fontSize={{ base: "8px", md: "xs", lg: "sm" }}
+              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
               lineHeight={"1.5"}
               color="#CCCCCC"
               fontWeight="normal"
@@ -62,7 +61,7 @@ export default ({
               {description}
             </Heading>
             <Heading
-              fontSize={{ base: "8px", md: "xs", lg: "sm" }}
+              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
               color="#CCCCCC"
               lineHeight={"1.5"}
               fontWeight="normal"
@@ -70,11 +69,17 @@ export default ({
               {description2}
             </Heading>
             <Heading
-              fontSize={{ base: "8px", md: "xs", lg: "sm" }}
+              size="xs"
+              color="#6366F1"
+              pt={{ base: "4", sm: "4", md: "4" }}
+            >
+              Tech Stacks :
+            </Heading>
+            <Heading
+              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
               color="#CCCCCC"
               fontWeight="bold"
-              pt="1"
-              lineHeight={"1.8"}
+              lineHeight={"1.6"}
             >
               {techstack}
             </Heading>
@@ -88,7 +93,7 @@ export default ({
             <Link
               color={"#6366F1"}
               fontWeight="bold"
-              fontSize="lg"
+              fontSize="md"
               href={previewLink}
               target="_blank"
             >
@@ -97,7 +102,7 @@ export default ({
             <Link
               color={"#6366F1"}
               fontWeight="bold"
-              fontSize="lg"
+              fontSize="md"
               href={githubLink}
               target="_blank"
             >
