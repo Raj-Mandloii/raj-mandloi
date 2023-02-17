@@ -54,7 +54,7 @@ export default ({
               {title}
             </Heading>
             <Heading
-              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
+              fontSize={{ base: "11px", md: "xs", lg: "sm" }}
               lineHeight={"1.5"}
               color="#CCCCCC"
               fontWeight="normal"
@@ -62,7 +62,7 @@ export default ({
               {description}
             </Heading>
             <Heading
-              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
+              fontSize={{ base: "11px", md: "xs", lg: "sm" }}
               color="#CCCCCC"
               lineHeight={"1.5"}
               fontWeight="normal"
@@ -77,7 +77,7 @@ export default ({
               Tech Stacks :
             </Heading>
             <Heading
-              fontSize={{ base: "9px", md: "xs", lg: "sm" }}
+              fontSize={{ base: "11px", md: "xs", lg: "sm" }}
               color="#CCCCCC"
               fontWeight="bold"
               lineHeight={"1.6"}
