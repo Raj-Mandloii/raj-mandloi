@@ -16,10 +16,8 @@ function App() {
       backgroundColor: '#252A2F',
 
     }}>
-      {/* <Routes basename={process.env.PUBLIC_URL}> */}
       <Header />
       <Home />
-      {/* header is the top icons like twitter and linkden  */}
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<></>} />
         <Route path="/moreprojects" element={<MoreProjects />} />

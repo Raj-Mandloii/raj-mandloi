@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Components/Project";
 import { projectDetails } from "../Details";
-import ProjectDetails from "../Components/Project-Datails/index";
+import ProjectDetails from "../Components/Project-Section/index";
 
 function Projects() {
   return (

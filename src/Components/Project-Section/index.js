@@ -9,7 +9,6 @@ import {
   Skeleton,
   Stack,
 } from "@chakra-ui/react";
-import { FaArrowRight } from "react-icons/fa";
 
 export default ({
   title,

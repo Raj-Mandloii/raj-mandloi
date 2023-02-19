@@ -6,7 +6,7 @@ import resumePdf from "../assets/Raj-Mandloi-Resume.pdf";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  // const { linkdein, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -21,7 +21,6 @@ function Header() {
           <h1 className="text-2xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-300 text-transparent md:text-xs xl:text-base xl:leading-tight font-bold">
             {"[ { Raj } ]"}
           </h1>
-          {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
