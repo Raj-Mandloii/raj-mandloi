@@ -41,6 +41,7 @@ import reactChat from "./assets/projects/react-chat.png";
 import notetaking from "./assets/projects/note-taking.png";
 import whatsapp from "./assets/projects/whatsapp.png";
 import ecom from "./assets/projects/e-com.png";
+import teerex from "./assets/projects/teerex-home.png";
 // import bmi from "./assets/projects/bmi.jpg";
 
 // Logos
@@ -155,6 +156,18 @@ export const projectDetails = [
       "HTML / CSS, Javascript, React, Socket.io, Material-UI, Nodejs, Express, MongoDB.",
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
+  },
+  {
+    title: "Teerex Store Website",
+    image: teerex,
+    description: `E-Commerce is a shopping website built using React and for state management I use useContext hook. 
+    Users can browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website created using pure CSS and is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `HTML, CSS, javascript, React.`,
+    previewLink: "https://teerex-ecom.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/TeeRex-Store",
   },
   {
     title: "Toggl Track - Clone",

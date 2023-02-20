@@ -26,7 +26,7 @@ export default ({
     mx="auto"
     px={{ base: "0", lg: "4" }}
     py={{ base: "0", lg: "2" }}
-    mt={{ lg: "4",md:"4" }}
+    mt={{ lg: "4", md: "4" }}
   >
     <Stack
       direction={{ base: "column-reverse", lg: "row" }}
@@ -49,7 +49,13 @@ export default ({
       >
         <Stack spacing={{ base: "8", lg: "10" }}>
           <Stack spacing={{ base: "2", lg: "4" }}>
-            <Heading size="md" color="#6366F1" pb="1" mt={{ sm: "4" }} textAlign="center">
+            <Heading
+              size="md"
+              color="#6366F1"
+              pb="1"
+              mt={{ sm: "4" }}
+              textAlign="center"
+            >
               {title}
             </Heading>
             <Heading
@@ -90,15 +96,17 @@ export default ({
             // bottom={{ base: "3", lg: "-6", sm: "5" }}
             w="100%"
           >
-            <Link
-              color={"#6366F1"}
-              fontWeight="bold"
-              fontSize="md"
-              href={previewLink}
-              target="_blank"
-            >
-              Live
-            </Link>
+            {previewLink && (
+              <Link
+                color={"#6366F1"}
+                fontWeight="bold"
+                fontSize="md"
+                href={previewLink}
+                target="_blank"
+              >
+                Live
+              </Link>
+            )}
             <Link
               color={"#6366F1"}
               fontWeight="bold"
