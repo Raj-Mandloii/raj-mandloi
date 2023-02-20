@@ -160,7 +160,7 @@ export const projectDetails = [
   {
     title: "Teerex Store Website",
     image: teerex,
-    description: `E-Commerce is a shopping website built using React and for state management I use useContext hook. 
+    description: `E-Commerce is a shopping website built using React and for state management useContext hook is used. 
     Users can browse and search for products, add them to their carts, and proceed to checkout.`,
     description2: `The website created using pure CSS and is fully responsive and optimized, providing a 
     smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
