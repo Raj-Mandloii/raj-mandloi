@@ -4,7 +4,7 @@ import { socialMediaUrl } from "../Details";
 import call from "../assets/phone-svgrepo-com.svg";
 function Contact() {
   const { email, phone } = contactDetails;
-  const { linkdein, github, twitter, gmail, } = socialMediaUrl;
+  const { linkdein, github, twitter, } = socialMediaUrl;
   return (
     <main id="contact" className="container mx-auto max-width section pb-6">
       <section>
