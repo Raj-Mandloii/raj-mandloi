@@ -40,7 +40,8 @@ function Technologies() {
           Front-end
         </p>
       </section>
-      <section className="mt-5 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+
+      <section className="mt-5 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
         <DesignBg src={html} title={"HTML"} />
         <DesignBg src={css} title={"CSS"} />
         <DesignBg src={js} title={"JavaScript"} />
@@ -54,13 +55,12 @@ function Technologies() {
         <DesignBg src={chakra} title={"Chakra-UI"} />
         <DesignBg src={materialui} title={"Material-UI"} />
         <DesignBg src={bootstap} title={"Bootstrap"} />
-
-
       </section>
+
       <p className="text-white pl-4 mt-4 mb-6 rounded-full py-1 lg:max-w-3xl bg-gradient-to-r from-blue-500 font-bold mt-8">
         Back-end
       </p>
-      <section className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+      <section className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
         <DesignBg src={node} title={"Node"} />
         <DesignBg src={express} title={"Express"} />
         <DesignBg src={mongo} title={"Mongo DB"} />
@@ -71,7 +71,7 @@ function Technologies() {
           Tools
         </h1>
       </section>
-      <section className="mt-6 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 items-center pt-0 place-items-center">
+      <section className="mt-6 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
         <DesignBg src={vscode} title={"Visual Studio Code"} />
         <DesignBg src={studio} title={"Android-Studio"} />
         <DesignBg src={github} title={"Github"} />

@@ -76,6 +76,15 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
+    Position: "Full Stack Web Developer, Apprenticeship.",
+    Company: `Masai School`,
+    Location: "Bengaluru,Karnataka",
+    Image:
+      "https://www.masaischool.com/img/navbar/logo.svg",
+    Type: "Full Time",
+    Duration: "February 2022 - February 2023",
+  },
+  {
     Position: "Flutter Developer",
     Company: `SaturnCube Technologies`,
     Location: "Ahmedabad",

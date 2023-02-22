@@ -1,21 +1,32 @@
 import React from "react";
-function Project({ title, image, description, description2, techstack, previewLink, githubLink }) {
-
+function Project({
+  title,
+  image,
+  description,
+  description2,
+  techstack,
+  previewLink,
+  githubLink,
+}) {
   return (
-    <article id="project" className="rounded-xl mt-10 overflow-hidden hover:scale-105 ease-in-out duration-300">
-  
-      <div className="rounded-lg border-dashed border-2 border-sky-500 hover:bg-sky-700 p-1" >
+    <article
+      id="project"
+      className="rounded-xl mt-10 overflow-hidden hover:scale-105 ease-in-out duration-300"
+    >
+      <div className="rounded-lg border-dashed border-2 border-sky-500 hover:bg-sky-700 p-1">
         <img className="rounded-lg" src={image} alt="" loading="lazy" />
       </div>
       <div className="dark:bg-dark-card p-4 rounded-b-lg min-h-full">
-        <h3 className="dark:text-light-heading font-semibold text-lg pt-0">{title}</h3>
+        <h3 className="dark:text-light-heading font-semibold text-lg pt-0">
+          {title}
+        </h3>
         <p className="text-content pt-2 font-light text-sm">{description}</p>
         <p className="text-content pt-2 font-light text-sm">{description2}</p>
         <h4 className="text-dark-heading dark:text-light-heading pt-2 text-sm font-bold">
           Tech Stack : <span className="font-light ">{techstack}</span>
         </h4>
         <div className="flex justify-between items-center mt-4">
-          {!previewLink ? null :
+          {!previewLink ? null : (
             <div className="flex items-center">
               <svg
                 className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
@@ -47,7 +58,7 @@ function Project({ title, image, description, description2, techstack, previewLi
                 Live Preview
               </a>
             </div>
-          }
+          )}
           <div className="flex items-cente">
             <svg
               className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
@@ -68,7 +79,8 @@ function Project({ title, image, description, description2, techstack, previewLi
               href={githubLink}
               target="_blank"
               rel="noreferrer noopener"
-              className="underline pl-2 font-light dark:text-white">
+              className="underline pl-2 font-light dark:text-white"
+            >
               View Code
             </a>
           </div>

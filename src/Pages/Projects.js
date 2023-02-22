@@ -13,7 +13,7 @@ function Projects() {
     return projectDetails.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
   return (
-    <main className="container mx-auto max-width pt-0 mb-0">
+    <main  className="container mx-auto max-width pt-0 mb-0">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Projects
@@ -59,6 +59,7 @@ function Projects() {
             totalCount={projectDetails.length}
             pageSize={PageSize}
             onPageChange={(page) => {
+              
               setCurrentPage(page);
             }}
           />

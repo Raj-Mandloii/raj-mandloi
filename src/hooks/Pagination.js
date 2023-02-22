@@ -2,6 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import { usePagination, DOTS } from "./usePagination";
 import "./pagination.scss";
+import { Link } from "react-router-dom";
 const Pagination = (props) => {
   const {
     onPageChange,

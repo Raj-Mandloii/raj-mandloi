@@ -10,12 +10,13 @@ import MoreProjects from "./Pages/MoreProjects";
 import { GitStates } from "./Components/GitStates";
 
 function App() {
-
   return (
-    <div className="dark" style={{
-      backgroundColor: '#252A2F',
-
-    }}>
+    <div
+      className="dark"
+      style={{
+        backgroundColor: "#252A2F",
+      }}
+    >
       <Header />
       <Home />
       <Routes basename={process.env.PUBLIC_URL}>
@@ -28,9 +29,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-
     </div>
-
   );
 }
 
