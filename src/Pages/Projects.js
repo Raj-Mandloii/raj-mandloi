@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import Project from "../Components/Project";
+// import Project from "../Components/Project";
 import { projectDetails } from "../Details";
 import SingleProject from "../Components/Project-Section/index";
 import Pagination from "../hooks/Pagination";
@@ -52,12 +52,15 @@ function Projects() {
               )
             )
           )}
+          
           <Pagination
             className="pagination-bar"
             currentPage={currentPage}
             totalCount={projectDetails.length}
             pageSize={PageSize}
-            onPageChange={(page) => setCurrentPage(page)}
+            onPageChange={(page) => {
+              setCurrentPage(page);
+            }}
           />
         </div>
       </section>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { socialMediaUrl } from "../Details";
+// import { socialMediaUrl } from "../Details";
 import { Link, animateScroll as scroll } from "react-scroll";
 import resumePdf from "../assets/Raj-Mandloi-Resume.pdf";
 
