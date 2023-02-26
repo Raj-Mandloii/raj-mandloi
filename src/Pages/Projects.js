@@ -2,15 +2,17 @@ import React, { useMemo, useState } from "react";
 // import Project from "../Components/Project";
 import { projectDetails } from "../Details";
 import SingleProject from "../Components/Project-Section/index";
-import Pagination from "../hooks/Pagination";
+import Pagination from "../pagination/Pagination";
 let PageSize = 3;
 function Projects() {
+
   const [currentPage, setCurrentPage] = useState(1);
 
   const data = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
     return projectDetails.slice(firstPageIndex, lastPageIndex);
+    
   }, [currentPage]);
   return (
     <main  className="container mx-auto max-width pt-0 mb-0">
