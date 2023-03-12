@@ -21,7 +21,7 @@ function App() {
       <Home />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<></>} />
-        <Route path="/moreprojects" element={<MoreProjects />} />
+        {/* <Route path="/moreprojects" element={<MoreProjects />} /> */}
       </Routes>
       <About />
       <Technologies />

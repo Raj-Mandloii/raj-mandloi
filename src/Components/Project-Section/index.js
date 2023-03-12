@@ -27,7 +27,7 @@ export default ({
       borderRadius={"lg"}
       maxW="7xl"
       mx="auto"
-      px={{ base: "0", lg: "4" }}
+      px={{ base: "0", lg: "2" }}
       py={{ base: "0", lg: "2" }}
       mt={{ lg: "4", md: "4" }}
     >
@@ -44,8 +44,8 @@ export default ({
             lg: "transparent",
           }}
           my={{ base: "2", md: "2", lg: "0" }}
-          px={{ base: "6", md: "8", lg: "0" }}
-          py={{ base: "4", md: "4", lg: "12" }}
+          px={{ base: "6", md: "8", lg: "2" }}
+          py={{ base: "4", md: "4", lg: "2" }}
           // height={{ base: "23rem", md: "28rem", sm: "26rem" }}
           // position="relative"
           // height="fill"

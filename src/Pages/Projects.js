@@ -18,7 +18,7 @@ function Projects() {
     <main  className="container mx-auto max-width pt-0 mb-0">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Projects
+          React Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-5 gap-y-5">
           {React.Children.toArray(
