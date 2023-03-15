@@ -121,9 +121,9 @@ function Home() {
           target="_blank"
           href="https://drive.google.com/file/d/1QuREFlNjpRHrwZNJ3bJmmbztRbKWtfRH/view"
         >
-          <button className="text-white rounded-full hover:rounded border-4 border-indigo-500/100 px-5 py-1 mt-5">
+          {/* <button className="text-white rounded-full hover:rounded border-4 border-indigo-500/100 px-5 py-1 mt-5">
             View Resume
-          </button>
+          </button> */}
         </a>
       </div>
     </main>

@@ -166,6 +166,21 @@ export const projectDetails = [
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
+  
+  {
+    title: "HubSpot Website - Clone",
+    image: hubspot,
+    description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
+    and customer service.`,
+    description2: `Developed along with a team of 5 members in one week.
+    My task was to create a Free Tools page and to show all of HubSpot's 
+    free marketing, sales, customer service, CMS, and operations tools.
+    `,
+    techstack:
+      "HTML / CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
+    previewLink: "https://clone-hubspot.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
+  },
   {
     title: "Teerex Store Website",
     image: teerex,
@@ -216,20 +231,6 @@ export const projectDetails = [
     githubLink: "https://github.com/Raj-Mandloii/Note-Taking-App",
   },
 
-  {
-    title: "HubSpot Website - Clone",
-    image: hubspot,
-    description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
-    and customer service.`,
-    description2: `Developed along with a team of 5 members in one week.
-    My task was to create a Free Tools page and to show all of HubSpot's 
-    free marketing, sales, customer service, CMS, and operations tools.
-    `,
-    techstack:
-      "HTML / CSS, JavaScript, React, Redux, Chakra UI , React-router-dom, Axios.",
-    previewLink: "https://clone-hubspot.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/gold-tub-6222",
-  },
   {
     title: "Max Fashion Website - Clone",
     image: maxfasion,

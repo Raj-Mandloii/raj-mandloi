@@ -91,13 +91,13 @@ function Header() {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a href={resumePdf} download>
               <button className="text-white rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">
                 RESUME
               </button>
             </a>
-          </li>
+          </li> */}
         </ul>
         {/* <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
