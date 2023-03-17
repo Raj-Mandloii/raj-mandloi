@@ -56,7 +56,7 @@ export const personalDetails = {
   tagline: `Full Stack Web Developer &`,
   tagline1: `Flutter Developer`,
   img: profile,
-  about: `My name is Raj and I am a software engineer specialized in front-end and back-end applications.
+  about: `My name is Raj and I am a Software Engineer specialized in Front-end and Back-end applications.
    I acquired a strong knowledge and expertise in this field over time.
    Software quality, scalability and Service Oriented Architecture are subjects that fascinate me.
    Generally speaking, I love working and sharing on topics related to software architecture and software quality.
