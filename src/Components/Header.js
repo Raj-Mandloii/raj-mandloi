@@ -14,7 +14,7 @@ function Header() {
   return (
     <header
       id="header"
-      className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[1] bg-[#252A2F] border-b-2 border-indigo-300"
+      className="mx-auto md:flex justify-between py-0 max-width sticky top-0 z-[100] bg-[#252A2F] border-b-2 border-indigo-300"
     >
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">

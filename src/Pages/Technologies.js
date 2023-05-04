@@ -25,12 +25,12 @@ function Technologies() {
     node,
     materialui,
     mongo,
-    bootstap
+    bootstap,
   } = techStackDetails;
   return (
     <main id="technologies" className="container mx-auto max-width pt-0 pb-10 ">
       <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Tech Stack
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
@@ -41,15 +41,15 @@ function Technologies() {
         </p>
       </section>
 
-      <section className="mt-5 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
+      <section className="mt-5 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center pt-0 place-items-center">
+        <DesignBg src={react} title={"React"} />
+        <DesignBg src={flutter} title={"Flutter"} />
+        <DesignBg src={nextjs} title={"Nextjs"} />
         <DesignBg src={html} title={"HTML"} />
         <DesignBg src={css} title={"CSS"} />
         <DesignBg src={js} title={"JavaScript"} />
         <DesignBg src={typescript} title={"Typescript"} />
-        <DesignBg src={react} title={"React"} />
-        <DesignBg src={nextjs} title={"Nextjs"} />
         <DesignBg src={redux} title={"Redux"} />
-        <DesignBg src={flutter} title={"Flutter"} />
         <DesignBg src={dart} title={"Dart"} />
         <DesignBg src={tailwind} title={"Tailwind CSS"} />
         <DesignBg src={chakra} title={"Chakra-UI"} />
@@ -60,18 +60,17 @@ function Technologies() {
       <p className="text-white pl-4 mt-4 mb-6 rounded-full py-1 lg:max-w-3xl bg-gradient-to-r from-blue-500 font-bold mt-8">
         Back-end
       </p>
-      <section className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
+      <section className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center pt-0 place-items-center">
         <DesignBg src={node} title={"Node"} />
         <DesignBg src={express} title={"Express"} />
         <DesignBg src={mongo} title={"Mongo DB"} />
-
       </section>
       <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-xl pt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           Tools
         </h1>
       </section>
-      <section className="mt-6 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-7 items-center pt-0 place-items-center">
+      <section className="mt-6 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 items-center pt-0 place-items-center">
         <DesignBg src={vscode} title={"Visual Studio Code"} />
         <DesignBg src={studio} title={"Android-Studio"} />
         <DesignBg src={github} title={"Github"} />
@@ -83,7 +82,7 @@ function Technologies() {
       <br />
       <br />
       <section className="items-center">
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-xl pt-10 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           GitHub Contributions
         </h1>
         <br />
@@ -98,10 +97,11 @@ function Technologies() {
 
 function DesignBg({ src, title }) {
   return (
-    <div className="rounded-lg bg-gradient-to-r from-cyan-900 to-blue-900 m-3 p-4 pt-1 pb-1 h-28  w-24 flex items-center bg-gradient-to-l hover:bg-gradient-to-r shadow-2xl hover:scale-125 ease-in-out duration-200">
+    <div className="rounded-lg bg-gradient-to-r from-cyan-900 to-blue-900 m-3 p-4 pt-1 pb-1 h-24  w-20 flex items-center bg-gradient-to-l hover:bg-gradient-to-r shadow-2xl hover:scale-125 ease-in-out duration-200 drop-shadow-2xl">
       <img src={src} title={title} alt={title} />
+      {/* <p className="text-white text-xs text-ellipsis overflow-hidden">{title}</p> */}
     </div>
-  )
+  );
 }
 
 export default Technologies;

@@ -33,7 +33,6 @@ import mongo from "./assets/techstack/mongodb.png";
 
 // Porject Images
 import maxfasion from "./assets/projects/maxfasion.png";
-// import lyst from "./assets/projects/lyst.png";
 import clima from "./assets/projects/clima.png";
 import hubspot from "./assets/projects/hubspot.png";
 import toggle from "./assets/projects/toggl.png";
@@ -42,7 +41,13 @@ import notetaking from "./assets/projects/note-taking.png";
 import whatsapp from "./assets/projects/whatsapp.png";
 import ecom from "./assets/projects/e-com.png";
 import teerex from "./assets/projects/teerex-home.png";
-// import bmi from "./assets/projects/bmi.jpg";
+
+// FLutter project images --->
+import ecomFlutter from "./assets/projects/flutter/e-commerce/home.jpeg";
+import ecomFlutter1 from "./assets/projects/flutter/e-commerce/auth.jpeg";
+import ecomFlutter2 from "./assets/projects/flutter/e-commerce/cart.jpeg";
+import ecomFlutte3 from "./assets/projects/flutter/e-commerce/category.jpeg";
+import ecomFlutte4 from "./assets/projects/flutter/e-commerce/profile.jpeg";
 
 // Logos
 export const logos = {
@@ -75,15 +80,15 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [
-  {
-    Position: "Full Stack Web Developer, Apprenticeship.",
-    Company: `Masai School`,
-    Location: "Bengaluru,Karnataka",
-    Image:
-      "https://www.masaischool.com/img/navbar/logo.svg",
-    Type: "Full Time",
-    Duration: "February 2022 - February 2023",
-  },
+  // {
+  //   Position: "Full Stack Web Developer, Apprenticeship.",
+  //   Company: `Masai School`,
+  //   Location: "Bengaluru,Karnataka",
+  //   Image:
+  //     "https://www.masaischool.com/img/navbar/logo.svg",
+  //   Type: "Full Time",
+  //   Duration: "February 2022 - February 2023",
+  // },
   {
     Position: "Flutter Developer",
     Company: `SaturnCube Technologies`,
@@ -91,7 +96,7 @@ export const workDetails = [
     Image:
       "https://www.saturncube.com/static/media/SC_logo.e031e07733bb594dba71386039f59fd0.svg",
     Type: "Full Time",
-    Duration: "September 2021 - February 2022",
+    Duration: "December 2021 - December 2022",
   },
 ];
 
@@ -142,10 +147,110 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 
+export const flutterProjectDetails = [
+  {
+    title: "E-Commerce App",
+    image: ecom,
+    detailImages: [
+      ecomFlutter,
+      "./assets/projects/flutter/e-commerce/category.jpeg",
+      "./assets/projects/flutter/e-commerce/profile.jpeg",
+      "./assets/projects/flutter/e-commerce/cart.jpeg",
+    ],
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+
+  {
+    title: "E-Commerce Website",
+    image: ecom,
+    detailImages: [
+      "./assets/projects/flutter/e-commerce/home.jpeg",
+      "./assets/projects/flutter/e-commerce/category.jpeg",
+      "./assets/projects/flutter/e-commerce/profile.jpeg",
+      "./assets/projects/flutter/e-commerce/cart.jpeg",
+    ],
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+  {
+    title: "E-Commerce Website",
+    image: ecom,
+    detailImages: [
+      "./assets/projects/flutter/e-commerce/home.jpeg",
+      "./assets/projects/flutter/e-commerce/category.jpeg",
+      "./assets/projects/flutter/e-commerce/profile.jpeg",
+      "./assets/projects/flutter/e-commerce/cart.jpeg",
+    ],
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+  {
+    title: "E-Commerce Website",
+    image: ecom,
+    detailImages: [
+      "./assets/projects/flutter/e-commerce/home.jpeg",
+      "./assets/projects/flutter/e-commerce/category.jpeg",
+      "./assets/projects/flutter/e-commerce/profile.jpeg",
+      "./assets/projects/flutter/e-commerce/cart.jpeg",
+    ],
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+  {
+    title: "E-Commerce Website",
+    image: ecom,
+    detailImages: [
+      "./assets/projects/flutter/e-commerce/home.jpeg",
+      "./assets/projects/flutter/e-commerce/category.jpeg",
+      "./assets/projects/flutter/e-commerce/profile.jpeg",
+      "./assets/projects/flutter/e-commerce/cart.jpeg",
+    ],
+    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
+    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
+    description2: `The website is fully responsive and optimized, providing a 
+    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
+    e-commerce website, utilizing the latest technologies in web development.`,
+    techstack: `React, Redux, Redux Thunk Chakra UI, 
+      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
+    previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+  },
+];
+
 export const projectDetails = [
   {
     title: "E-Commerce Website",
     image: ecom,
+    detailImages: [ecom],
     description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
     Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
     description2: `The website is fully responsive and optimized, providing a 
@@ -159,6 +264,7 @@ export const projectDetails = [
   {
     title: "WhatsApp Web Clone",
     image: whatsapp,
+    detailImages: [whatsapp],
     description: `WhatsApp Web clone built using React, Socket.IO, and Node.js is a real-time communication application that mimics the functionality of the popular messaging platform. React provides a user-friendly interface for the front end of the application, while Socket.IO and Node.js handle real-time communication between users and Google OAuth for secure authentication`,
     description2: `This technology stack offers the right combination of front-end and back-end technologies to build a feature-rich messaging platform.`,
     techstack:
@@ -166,10 +272,11 @@ export const projectDetails = [
     previewLink: "https://whats-app-clone-reactjs.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/whatsapp-clone-reactjs",
   },
-  
+
   {
     title: "HubSpot Website - Clone",
     image: hubspot,
+    detailImages: [hubspot],
     description: `HubSpot is an American developer and marketer of software products for inbound marketing, sales, 
     and customer service.`,
     description2: `Developed along with a team of 5 members in one week.
@@ -184,6 +291,7 @@ export const projectDetails = [
   {
     title: "Teerex Store Website",
     image: teerex,
+    detailImages: [teerex],
     description: `E-Commerce is a shopping website built using React and for state management useContext hook is used. 
     Users can browse and search for products, add them to their carts, and proceed to checkout.`,
     description2: `The website created using pure CSS and is fully responsive and optimized, providing a 
@@ -196,6 +304,7 @@ export const projectDetails = [
   {
     title: "Toggl Track - Clone",
     image: toggle,
+    detailImages: [toggle],
     description: `Toggl Track is a time-tracking app that allows you to track your daily activities across different 
     platforms; providing you with detailed insights and an opportunity to optimize your workflow. A Toggl Track clone built using React, 
     Redux and Node.js is a time-tracking application designed for individuals and teams to manage their work hours efficiently.`,
@@ -210,6 +319,7 @@ export const projectDetails = [
   {
     title: "Chat App",
     image: reactChat,
+    detailImages: [reactChat],
     description: `Real time chatting app allows you to communicate with your friends through chat. It enables you to send and receive messages and
      make it easier, simpler and faster to connect with everyone.`,
     description2: `This is my personal project, created to get insights on Firebase, manage multiple users in React application. 
@@ -223,6 +333,7 @@ export const projectDetails = [
   {
     title: "Note Taking App",
     image: notetaking,
+    detailImages: [notetaking],
     description: `It allows user to take, update and delete notes and various important task and events, and user can also filter various notes 
     based on title and various tags. User can create various tags related to events and also can delete any tag directly.`,
     description2: `Developed this project within a time span of 2 days and to attain basic understanding of various functions and fundamentals of Type-Script.`,
@@ -234,6 +345,7 @@ export const projectDetails = [
   {
     title: "Max Fashion Website - Clone",
     image: maxfasion,
+    detailImages: [maxfasion],
     description: `Launched in the UAE in May 2004, Max was established in India in 2006, Max is the most profitable value fashion format in the region.
 
     Max offers apparel, footwear and accessories for the entire family - women, men and children. `,
@@ -246,6 +358,7 @@ export const projectDetails = [
   {
     title: "Climate App",
     image: clima,
+    detailImages: [clima],
     description: `☁ An android app built using flutter that displays and forecast the specific city Weather and Climate for dynamic 
     time event by collecting the data from API that is provided for free by OPENWEATHER site 🌏.`,
     description2: `Used open weather API to fetch weather information.  

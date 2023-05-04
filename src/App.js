@@ -8,6 +8,7 @@ import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 import MoreProjects from "./Pages/MoreProjects";
 import { GitStates } from "./Components/GitStates";
+import FlutterProjects from "./Pages/Flutter-Projects";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <About />
       <Technologies />
       {/* <GitStates /> */}
+      {/* <FlutterProjects /> */}
       <Projects />
       <Contact />
       <Footer />

@@ -87,7 +87,7 @@ function Home() {
       <div ref={myimageref} className="mt-5 md:mt-0">
         <img
           ref={myimageref}
-          className="md:bg-gradient-to-r rounded-full hover:border-x-indigo-100 h-90 w-80 border-2 border-indigo-600 border-x-indigo-500"
+          className="md:bg-gradient-to-r rounded-full hover:border-x-indigo-900 h-90 w-80 border-2 border-indigo-600 border-x-indigo-500"
           src={img}
           alt="Raj Mandloi"
         />

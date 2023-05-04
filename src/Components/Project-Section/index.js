@@ -53,7 +53,7 @@ export default ({
           <Stack spacing={{ base: "8", lg: "10" }}>
             <Stack spacing={{ base: "2", lg: "4" }}>
               <Heading
-                size="md"
+                size="sm"
                 color="#6366F1"
                 pb="1"
                 mt={{ sm: "4" }}
@@ -62,18 +62,20 @@ export default ({
                 {title}
               </Heading>
               <Heading
-                fontSize={{ base: "11px", md: "xs", lg: "sm" }}
+                fontSize={{ base: "8px", md: "xs", lg: "xs" }}
                 lineHeight={"1.5"}
                 color="#CCCCCC"
                 fontWeight="normal"
+                textAlign="center"
               >
                 {description}
               </Heading>
               <Heading
-                fontSize={{ base: "11px", md: "xs", lg: "sm" }}
+                fontSize={{ base: "8px", md: "xs", lg: "xs" }}
                 color="#CCCCCC"
                 lineHeight={"1.5"}
                 fontWeight="normal"
+                textAlign="center"
               >
                 {description2}
               </Heading>
@@ -84,14 +86,16 @@ export default ({
               >
                 Tech Stacks :
               </Heading>
+              {/* <Box display={"flex"}> */}
               <Heading
-                fontSize={{ base: "11px", md: "xs", lg: "sm" }}
+                fontSize={{ base: "8px", md: "xs", lg: "xs" }}
                 color="#CCCCCC"
                 fontWeight="bold"
                 lineHeight={"1.6"}
               >
                 {techstack}
               </Heading>
+              {/* </Box> */}
             </Stack>
             <HStack
               justifyContent={"space-evenly"}

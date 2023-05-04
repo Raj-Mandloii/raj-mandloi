@@ -1,29 +1,29 @@
 import React, { useMemo, useState } from "react";
 // import Project from "../Components/Project";
-import { projectDetails } from "../Details";
+import { projectDetails,flutterProjectDetails } from "../Details";
 import SingleProject from "../Components/Project-Section/index";
-import Pagination from "../pagination/Pagination";
 import { Cards } from "../Components/Cards-Carousel/Cards";
-let PageSize = 3;
-function Projects() {
+// import Pagination from "../pagination/Pagination";
+// let PageSize = 3;
+function FlutterProjects() {
 
-  const [currentPage, setCurrentPage] = useState(1);
+//   const [currentPage, setCurrentPage] = useState(1);
 
-  const data = useMemo(() => {
-    const firstPageIndex = (currentPage - 1) * PageSize;
-    const lastPageIndex = firstPageIndex + PageSize;
-    return projectDetails.slice(firstPageIndex, lastPageIndex);
+//   const data = useMemo(() => {
+//     const firstPageIndex = (currentPage - 1) * PageSize;
+//     const lastPageIndex = firstPageIndex + PageSize;
+//     return projectDetails.slice(firstPageIndex, lastPageIndex);
     
-  }, [currentPage]);
+//   }, [currentPage]);
   return (
     <main  className="container mx-auto max-width pt-0 mb-0">
       <section>
         <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
-          MERN Stack Projects
+          Flutter Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-5 gap-y-5">
           {/* {React.Children.toArray(
-            data.map(
+            flutterProjectDetails.map(
               ({
                 title,
                 image,
@@ -34,28 +34,16 @@ function Projects() {
                 description2,
               }) => ( */}
                 <Cards
-                data={projectDetails}
-                  // title={title}
-                  // image={image}
-                  // description={description}
-                  // description2={description2}
-                  // techstack={techstack}
-                  // previewLink={previewLink}
-                  // githubLink={githubLink}
-                />
-
-                {/* // Project
-                //   title={title}
-                //   image={image}
-                //   description={description}
-                //   description2={description2}
-                //   techstack={techstack}
-                //   previewLink={previewLink}
-                //   githubLink={githubLink}
-                // 
-              // )
-            // )
-          // )} */}
+                data={flutterProjectDetails}
+            //       title={title}
+            //       image={image}
+            //       description={description}
+            //       description2={description2}
+            //       techstack={techstack}
+            //       previewLink={previewLink}
+            // githubLink={githubLink}
+                 /> 
+           
           
           {/* <Pagination
             className="pagination-bar"
@@ -69,7 +57,7 @@ function Projects() {
           /> */}
         </div>
       </section>
-      <div className="flex justify-center mt-6">
+      {/* <div className="flex justify-center mt-6">
         <a
           target="_blank"
           href="https://github.com/Raj-Mandloii?tab=repositories"
@@ -78,7 +66,7 @@ function Projects() {
             More Projects »
           </button>
         </a>
-      </div>
+      </div> */}
       {/* <NavLink to={"/moreprojects"}>
       <div className="flex justify-center mt-12"> */}
       {/* <a className="snap-center"  target="_blank" href="https://drive.google.com/file/d/1OAnPN9cH9H68u28EO3-eJWIiPHySzyty/view?usp=sharing"> */}
@@ -90,4 +78,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default FlutterProjects;

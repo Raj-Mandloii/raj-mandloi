@@ -8,7 +8,7 @@ function Contact() {
   return (
     <main id="contact" className="container mx-auto max-width section pb-6">
       <section>
-        <h1 className="text-2xl pb-4 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-xl pb-1 text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
         Get in Touch
         </h1>
       </section>
