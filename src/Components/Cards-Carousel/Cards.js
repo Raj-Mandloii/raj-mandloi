@@ -74,10 +74,9 @@ export function Cards({ data }) {
                 src={post.image}
                 alt={post.title}
                 fallback={<Skeleton />}
-                maxH="450px"
-                fallbackStrategy={() => console.log("==============")}
-                minW="300px"
-                objectFit="cover"
+                maxH="350px"
+                // minW="300px"
+                objectFit="contain"
                 flex="1"
                 borderRadius={"md"}
               />
@@ -112,7 +111,7 @@ export function Cards({ data }) {
                   size="sm"
                   variant="outline"
                   colorScheme="green"
-                  p="4"
+                  p="1"
                   lineHeight={"1.5"}
                 >
                   {post.techstack}
@@ -121,7 +120,7 @@ export function Cards({ data }) {
             </Flex>
             <Flex justifyContent="space-between">
               <HStack spacing={2}>
-                <Link href={post.previewLink} isExternal>
+               { post.previewLink && <Link href={post.previewLink} isExternal >
                   <Tag
                     size="sm"
                     variant="outline"
@@ -129,7 +128,7 @@ export function Cards({ data }) {
                   >
                     View Live
                   </Tag>
-                </Link>
+                </Link>}
                 <Link href={post.githubLink} isExternal>
                   <Tag size="sm" variant="outline" colorScheme="cyan">
                     Source Code

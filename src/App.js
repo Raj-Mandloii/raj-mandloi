@@ -27,7 +27,7 @@ function App() {
       <About />
       <Technologies />
       {/* <GitStates /> */}
-      {/* <FlutterProjects /> */}
+      <FlutterProjects />
       <Projects />
       <Contact />
       <Footer />

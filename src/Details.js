@@ -49,6 +49,10 @@ import ecomFlutter2 from "./assets/projects/flutter/e-commerce/cart.jpeg";
 import ecomFlutte3 from "./assets/projects/flutter/e-commerce/category.jpeg";
 import ecomFlutte4 from "./assets/projects/flutter/e-commerce/profile.jpeg";
 
+import shareWhatsapp from "./assets/projects/flutter/share-whatsapp/share-whatsapp.jpeg";
+import expenseTracker from "./assets/projects/flutter/expense-tracker/expense-tracker.png";
+import emplyees from "./assets/projects/flutter/employees/emplyees.jpeg";
+
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -150,99 +154,57 @@ export const techStackDetails = {
 export const flutterProjectDetails = [
   {
     title: "E-Commerce App",
-    image: ecom,
-    detailImages: [
-      ecomFlutter,
-      "./assets/projects/flutter/e-commerce/category.jpeg",
-      "./assets/projects/flutter/e-commerce/profile.jpeg",
-      "./assets/projects/flutter/e-commerce/cart.jpeg",
-    ],
-    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
-    description2: `The website is fully responsive and optimized, providing a 
-    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
-    e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `React, Redux, Redux Thunk Chakra UI, 
-      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
-    previewLink: "https://e-com-shopping.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
-  },
-
-  {
-    title: "E-Commerce Website",
-    image: ecom,
-    detailImages: [
-      "./assets/projects/flutter/e-commerce/home.jpeg",
-      "./assets/projects/flutter/e-commerce/category.jpeg",
-      "./assets/projects/flutter/e-commerce/profile.jpeg",
-      "./assets/projects/flutter/e-commerce/cart.jpeg",
-    ],
-    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
-    description2: `The website is fully responsive and optimized, providing a 
-    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
-    e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `React, Redux, Redux Thunk Chakra UI, 
-      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
-    previewLink: "https://e-com-shopping.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+    image: ecomFlutter,
+    detailImages: [ecomFlutter],
+    description: `E-Commerce is a shopping app built using Flutter, Dart, and GetX is used for state-management. 
+    Users can easily browse and search for products, add them to their carts or favourites, and proceed to checkout.`,
+    description2: `Learned to create complex & responsive UI.`,
+    techstack: `Flutter, Dart, GetX, Animation.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/E-Commerce-With-GetX",
   },
   {
-    title: "E-Commerce Website",
-    image: ecom,
-    detailImages: [
-      "./assets/projects/flutter/e-commerce/home.jpeg",
-      "./assets/projects/flutter/e-commerce/category.jpeg",
-      "./assets/projects/flutter/e-commerce/profile.jpeg",
-      "./assets/projects/flutter/e-commerce/cart.jpeg",
-    ],
-    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
-    description2: `The website is fully responsive and optimized, providing a 
-    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
-    e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `React, Redux, Redux Thunk Chakra UI, 
-      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
-    previewLink: "https://e-com-shopping.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+    title: "Shop App",
+    image: ecomFlutter1,
+    detailImages: [ecomFlutter],
+    description: `Shop-App is a shopping app built using Flutter, Dart, and Provider. 
+    Users can easily post their own product to sell and browse others. Search for products, add them to their carts or favourites, and proceed to checkout implemented.`,
+    description2: `Learned the usage of Provider & Firebase across the app.`,
+    techstack: `Flutter, Dart, Provider, REST APIs, Firebase.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/Shop-App-Flutter",
   },
   {
-    title: "E-Commerce Website",
-    image: ecom,
-    detailImages: [
-      "./assets/projects/flutter/e-commerce/home.jpeg",
-      "./assets/projects/flutter/e-commerce/category.jpeg",
-      "./assets/projects/flutter/e-commerce/profile.jpeg",
-      "./assets/projects/flutter/e-commerce/cart.jpeg",
-    ],
-    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
-    description2: `The website is fully responsive and optimized, providing a 
-    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
-    e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `React, Redux, Redux Thunk Chakra UI, 
-      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
-    previewLink: "https://e-com-shopping.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+    title: "Share-to-Whatsapp",
+    image: shareWhatsapp,
+    detailImages: [shareWhatsapp],
+    description: `Used device camera to capture image and allow user to directly share captured image to whatsapp with the help
+    of share to whatsapp feature.
+    `,
+    description2: `Learned the usage of Plugins & Packages.`,
+    techstack: `Flutter, Dart, REST APIs.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Davud44/social_image_share",
   },
   {
-    title: "E-Commerce Website",
-    image: ecom,
-    detailImages: [
-      "./assets/projects/flutter/e-commerce/home.jpeg",
-      "./assets/projects/flutter/e-commerce/category.jpeg",
-      "./assets/projects/flutter/e-commerce/profile.jpeg",
-      "./assets/projects/flutter/e-commerce/cart.jpeg",
-    ],
-    description: `E-Commerce is a shopping website built using React, Redux, and Nodejs. 
-    Users can easily browse and search for products, add them to their carts, and proceed to checkout.`,
-    description2: `The website is fully responsive and optimized, providing a 
-    smooth browsing experience.This project demonstrates the ability to create a fully functional and efficient 
-    e-commerce website, utilizing the latest technologies in web development.`,
-    techstack: `React, Redux, Redux Thunk Chakra UI, 
-      React-router-dom, Node, Express, Mongo DB, Rest APIs, React Responsive Carousel.`,
-    previewLink: "https://e-com-shopping.netlify.app/",
-    githubLink: "https://github.com/Raj-Mandloii/E-Commerce_React",
+    title: "Expense Tracker",
+    image: expenseTracker,
+    detailImages: [expenseTracker],
+    description: `Allows users to keep track of their personal expenses on weekly basis by taking various expenses in account.`,
+    description2: `Learned the creation of comples UI and charts.`,
+    techstack: `Flutter, Dart, Provider.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/Expenses-Tracker-Flutter",
+  },
+  {
+    title: "Employees App",
+    image: emplyees,
+    detailImages: [expenseTracker],
+    description: `Allows admin to increase the salary of perticular employee.`,
+    description2: `Learned the basic fundamental of BLoc pattern.`,
+    techstack: `Flutter, Dart, BLoc.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/Employee-App-Bloc-Flutter",
   },
 ];
 

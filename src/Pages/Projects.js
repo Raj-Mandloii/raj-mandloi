@@ -16,7 +16,7 @@ function Projects() {
     
   }, [currentPage]);
   return (
-    <main  className="container mx-auto max-width pt-0 mb-0">
+    <main   className="container mx-auto max-width pt-0 mb-0">
       <section>
         <h1 className="text-xl text-dark-heading dark:text-light-heading md:text-2xl xl:text-3xl xl:leading-tight font-bold">
           MERN Stack Projects
