@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.dd6b3ca9.css",
-    "main.js": "/raj-mandloi/static/js/main.dd8f4a0b.js",
+    "main.css": "/raj-mandloi/static/css/main.23c9bdfa.css",
+    "main.js": "/raj-mandloi/static/js/main.ddad470a.js",
+    "static/media/profile.jpg": "/raj-mandloi/static/media/profile.609889e8f9c2542fb9fe.jpg",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.aa75b86561fba3759910.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.ed0bd09d0e6d803436c2.png",
     "static/media/teerex-home.png": "/raj-mandloi/static/media/teerex-home.ea75b112686ad1f542ec.png",
-    "static/media/profile.jpeg": "/raj-mandloi/static/media/profile.3648aea56f3140584410.jpeg",
     "static/media/e-com.png": "/raj-mandloi/static/media/e-com.07e59d4702ecf78fd2ae.png",
     "static/media/whatsapp.png": "/raj-mandloi/static/media/whatsapp.60b0b9ea9754f828acae.png",
     "static/media/hubspot.png": "/raj-mandloi/static/media/hubspot.806812e3d421239b5524.png",
     "static/media/inter-all-500-normal.woff": "/raj-mandloi/static/media/inter-all-500-normal.127f77a7657a6b47cf38.woff",
     "static/media/toggl.png": "/raj-mandloi/static/media/toggl.2f54395fc32d66370916.png",
     "static/media/Raj-Mandloi-Resume.pdf": "/raj-mandloi/static/media/Raj-Mandloi-Resume.eb4477bf0ab975ec2dd0.pdf",
+    "static/media/kheloo-home.jpeg": "/raj-mandloi/static/media/kheloo-home.89b7719f84a16655de87.jpeg",
     "static/media/inter-latin-ext-500-normal.woff2": "/raj-mandloi/static/media/inter-latin-ext-500-normal.29df4aa934ecc9462070.woff2",
     "static/media/react-chat.png": "/raj-mandloi/static/media/react-chat.61eb0a744bca082f37ec.png",
     "static/media/home.jpeg": "/raj-mandloi/static/media/home.bb2d18ba261a6284bc07.jpeg",
     "static/media/bootstrap.png": "/raj-mandloi/static/media/bootstrap.f132cb791703420e69ca.png",
     "static/media/vercel.png": "/raj-mandloi/static/media/vercel.da798a550d074b1e47d3.png",
+    "static/media/stock-market-home.jpeg": "/raj-mandloi/static/media/stock-market-home.20a490a62430804982c0.jpeg",
     "static/media/share-whatsapp.jpeg": "/raj-mandloi/static/media/share-whatsapp.6a04dfe32d48d7dc0ecc.jpeg",
     "static/media/category.jpeg": "/raj-mandloi/static/media/category.912aa6bf63cee192357d.jpeg",
     "static/media/inter-latin-500-normal.woff2": "/raj-mandloi/static/media/inter-latin-500-normal.f8a10326828318d2245e.woff2",
@@ -28,6 +30,7 @@
     "static/media/auth.jpeg": "/raj-mandloi/static/media/auth.0f94aa126525d980e9d2.jpeg",
     "static/media/inter-greek-500-normal.woff2": "/raj-mandloi/static/media/inter-greek-500-normal.75a1d3c8eb035b420ce6.woff2",
     "static/media/android-studio.png": "/raj-mandloi/static/media/android-studio.b58abcbd61c8640af3ae.png",
+    "static/media/profile.jpeg": "/raj-mandloi/static/media/profile.3648aea56f3140584410.jpeg",
     "static/media/cart.jpeg": "/raj-mandloi/static/media/cart.dbba440e4ab2192f1abb.jpeg",
     "static/media/inter-cyrillic-500-normal.woff2": "/raj-mandloi/static/media/inter-cyrillic-500-normal.3164eabdbb931859ae7c.woff2",
     "static/media/node.png": "/raj-mandloi/static/media/node.acba77d3d2487152f588.png",
@@ -42,11 +45,11 @@
     "static/media/inter-vietnamese-500-normal.woff2": "/raj-mandloi/static/media/inter-vietnamese-500-normal.c15997f1d022aff0bd00.woff2",
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
-    "main.dd6b3ca9.css.map": "/raj-mandloi/static/css/main.dd6b3ca9.css.map",
-    "main.dd8f4a0b.js.map": "/raj-mandloi/static/js/main.dd8f4a0b.js.map"
+    "main.23c9bdfa.css.map": "/raj-mandloi/static/css/main.23c9bdfa.css.map",
+    "main.ddad470a.js.map": "/raj-mandloi/static/js/main.ddad470a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd6b3ca9.css",
-    "static/js/main.dd8f4a0b.js"
+    "static/css/main.23c9bdfa.css",
+    "static/js/main.ddad470a.js"
   ]
 }
