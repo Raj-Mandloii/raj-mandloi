@@ -6,9 +6,8 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
-import MoreProjects from "./Pages/MoreProjects";
-import { GitStates } from "./Components/GitStates";
 import FlutterProjects from "./Pages/Flutter-Projects";
+import CustomCarousel from "./Pages/CustomCarousel";
 
 function App() {
   return (
@@ -28,6 +27,7 @@ function App() {
       <Technologies />
       {/* <GitStates /> */}
       <FlutterProjects />
+      {/* <CustomCarousel/> */}
       <Projects />
       <Contact />
       <Footer />
@@ -35,21 +35,6 @@ function App() {
   );
 }
 
-// function App() {
-//   return (
-//     <Router>
-//       <Header />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/contact" element={<Contact />} />
-//         <Route path="/projects" element={<Projects />} />
-//         <Route path="/technologies" element={<Technologies />} />
-//       </Routes>
-//       <Footer />
-//     </Router>
-//   );
-// }
 export default App;
 
 // npm run deploy <<<< cmd to deploy the latest website

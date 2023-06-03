@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpeg";
+import profile from "./assets/profile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -52,6 +52,8 @@ import ecomFlutte4 from "./assets/projects/flutter/e-commerce/profile.jpeg";
 import shareWhatsapp from "./assets/projects/flutter/share-whatsapp/share-whatsapp.jpeg";
 import expenseTracker from "./assets/projects/flutter/expense-tracker/expense-tracker.png";
 import emplyees from "./assets/projects/flutter/employees/emplyees.jpeg";
+import kheloo from "./assets/projects/flutter/kheloo-app/kheloo-home.jpeg";
+import stock from "./assets/projects/flutter/stock-market/stock-market-home.jpeg";
 
 // Logos
 export const logos = {
@@ -162,6 +164,28 @@ export const flutterProjectDetails = [
     techstack: `Flutter, Dart, GetX, Animation.`,
     // previewLink: "https://e-com-shopping.netlify.app/",
     githubLink: "https://github.com/Raj-Mandloii/E-Commerce-With-GetX",
+  },
+  {
+    title: "Stock Market App",
+    image: stock,
+    detailImages: [ecomFlutter],
+    description: `
+    I have created a stock market app UI using Flutter and Dart. This app provides users with a sleek and intuitive interface to track and monitor stock market data.`,
+    description2: ` With real-time updates and interactive charts, users can stay informed about the latest market trends, view stock prices, and track their investment portfolios.`,
+    techstack: `Flutter, Dart, GetX, Animation.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/",
+  },
+  {
+    title: "Kheloo App",
+    image: kheloo,
+    detailImages: [ecomFlutter],
+    description: `
+    I have developed a Flutter app that replicates the UI of kheloo.com. With this app, users can experience the same design and layout as the original website but on their mobile devices.`,
+    description2: `Learned to create complex components & responsive UI.`,
+    techstack: `Flutter, Dart, GetX, Animation.`,
+    // previewLink: "https://e-com-shopping.netlify.app/",
+    githubLink: "https://github.com/Raj-Mandloii/kheloo-Web-Clone",
   },
   {
     title: "Shop App",
