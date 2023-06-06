@@ -41,6 +41,7 @@ import notetaking from "./assets/projects/note-taking.png";
 import whatsapp from "./assets/projects/whatsapp.png";
 import ecom from "./assets/projects/e-com.png";
 import teerex from "./assets/projects/teerex-home.png";
+import nextChat from "./assets/projects/next-chat.png";
 
 // FLutter project images --->
 import ecomFlutter from "./assets/projects/flutter/e-commerce/home.jpeg";
@@ -233,6 +234,15 @@ export const flutterProjectDetails = [
 ];
 
 export const projectDetails = [
+  {
+    title: "Chat App Next.js",
+    image: nextChat,
+    detailImages: [ecom],
+    description: `A modern Chat App built with Next.js, Prisma, Pusher, and Cloudinary. Experience real-time messaging, image sharing, and seamless communication.`,
+    description2: ` Benefit from Next.js's server-side rendering for enhanced performance. Prisma simplifies data management and enables complex queries. Pusher ensures instant message updates and notifications. Cloudinary integration enables effortless image sharing. Enjoy a user-friendly interface and engaging chat experience.`,
+    techstack: `React, Next.js, Prisma, Pusher, Cloudinary.`,
+    previewLink: "https://next13-messenger-master.vercel.app/",
+  },
   {
     title: "E-Commerce Website",
     image: ecom,

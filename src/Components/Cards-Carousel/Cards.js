@@ -112,11 +112,13 @@ export function Cards({ data }) {
                     </Tag>
                   </Link>
                 )}
-                <Link href={post.githubLink} isExternal>
-                  <Tag size="sm" variant="outline" colorScheme="cyan">
-                    Source Code
-                  </Tag>
-                </Link>
+                {post.githubLink && (
+                  <Link href={post.githubLink} isExternal>
+                    <Tag size="sm" variant="outline" colorScheme="cyan">
+                      Source Code
+                    </Tag>
+                  </Link>
+                )}
               </HStack>
             </Flex>
           </Flex>
