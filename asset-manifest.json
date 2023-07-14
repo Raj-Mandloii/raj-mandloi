@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/raj-mandloi/static/css/main.23c9bdfa.css",
-    "main.js": "/raj-mandloi/static/js/main.9c3b2f8b.js",
+    "main.js": "/raj-mandloi/static/js/main.b2b7cb84.js",
+    "static/media/shaadivines.png": "/raj-mandloi/static/media/shaadivines.d36f7e7c07f85dcb8323.png",
+    "static/media/carwash.png": "/raj-mandloi/static/media/carwash.f86e179fbb3edf62a797.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.3f9b56c61fd9c1fccb37.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.ed0bd09d0e6d803436c2.png",
     "static/media/teerex-home.png": "/raj-mandloi/static/media/teerex-home.ea75b112686ad1f542ec.png",
@@ -47,10 +49,10 @@
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
     "main.23c9bdfa.css.map": "/raj-mandloi/static/css/main.23c9bdfa.css.map",
-    "main.9c3b2f8b.js.map": "/raj-mandloi/static/js/main.9c3b2f8b.js.map"
+    "main.b2b7cb84.js.map": "/raj-mandloi/static/js/main.b2b7cb84.js.map"
   },
   "entrypoints": [
     "static/css/main.23c9bdfa.css",
-    "static/js/main.9c3b2f8b.js"
+    "static/js/main.b2b7cb84.js"
   ]
 }
