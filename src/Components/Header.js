@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 // import { socialMediaUrl } from "../Details";
 import { Link, animateScroll as scroll } from "react-scroll";
-import resumePdf from "../assets/Raj-Mandloi-Resume.pdf";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +80,7 @@ function Header() {
               Projects
             </Link>
           </li>
-          <li>
+          <li className=" pb-4"> 
             <Link
               className="cursor-pointer"
               to="contact"
@@ -91,6 +90,7 @@ function Header() {
               Contact
             </Link>
           </li>
+          
           {/* <li>
             <a href={resumePdf} download>
               <button className="text-white rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 m-5">

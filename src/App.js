@@ -8,6 +8,7 @@ import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 import FlutterProjects from "./Pages/Flutter-Projects";
 import CustomCarousel from "./Pages/CustomCarousel";
+import FreelancingProjects from "./Pages/Freelancing-Projects";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <About />
       <Technologies />
       {/* <GitStates /> */}
+      <FreelancingProjects />
       <FlutterProjects />
       {/* <CustomCarousel/> */}
       <Projects />

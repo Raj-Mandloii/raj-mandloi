@@ -42,6 +42,8 @@ import whatsapp from "./assets/projects/whatsapp.png";
 import ecom from "./assets/projects/e-com.png";
 import teerex from "./assets/projects/teerex-home.png";
 import nextChat from "./assets/projects/next-chat.png";
+import shaadivines from "./assets/projects/react/shadivines/shaadivines.png";
+import carwash from "./assets/projects/react/carwash/carwash.png";
 
 // FLutter project images --->
 import ecomFlutter from "./assets/projects/flutter/e-commerce/home.jpeg";
@@ -233,16 +235,39 @@ export const flutterProjectDetails = [
   },
 ];
 
-export const projectDetails = [
+export const freelancingProjects = [
+  {
+    title: "Shaadi Vines",
+    image: shaadivines,
+    detailImages: [shaadivines],
+    description: `Shaadi Vines is a blend the beauty of weddings with the power of technology. We are passionate about transforming the wedding experience for couples and their guests, creating unforgettable moments and simplifying the planning process.`,
+    description2: `Worked mainly on UI, Budget-Planning section, templates.`,
+    techstack: `React, Next.js, Material-UI`,
+    previewLink: "https://www.shaadivines.com/",
+  },
+  {
+    title: "Car Wash",
+    image: carwash,
+    detailImages: [carwash],
+    description: `FROM STARTING AS A
+    "10 car daily operation in Ajman in 2007, we have grown into a overall operations with 500 daily cars wash, but the best is yet to come......."
+    With operations in 5 Emirates: Dubai, Sharjah, Abu Dhabi, Al Ain & Ajman, Ajwa has established benchmarks and new standard in car wash field.`,
+    description2: `Built end to end application using React, Firebase and Chakra-UI`,
+    techstack: `React, Firebase, Chakra-UI`,
+    previewLink: "https://ajwacarwash.com/",
+  },
   {
     title: "Chat App Next.js",
     image: nextChat,
-    detailImages: [ecom],
+    detailImages: [nextChat],
     description: `A modern Chat App built with Next.js, Prisma, Pusher, and Cloudinary. Experience real-time messaging, image sharing, and seamless communication.`,
-    description2: ` Benefit from Next.js's server-side rendering for enhanced performance. Prisma simplifies data management and enables complex queries. Pusher ensures instant message updates and notifications. Cloudinary integration enables effortless image sharing. Enjoy a user-friendly interface and engaging chat experience.`,
+    description2: `Benefit from Next.js's server-side rendering for enhanced performance. Prisma simplifies data management and enables complex queries. Pusher ensures instant message updates and notifications. Cloudinary integration enables effortless image sharing. Enjoy a user-friendly interface and engaging chat experience.`,
     techstack: `React, Next.js, Prisma, Pusher, Cloudinary.`,
     previewLink: "https://next13-messenger-master.vercel.app/",
   },
+  
+];
+export const projectDetails = [
   {
     title: "E-Commerce Website",
     image: ecom,
