@@ -80,7 +80,7 @@ function Header() {
               Projects
             </Link>
           </li>
-          <li className=" pb-4"> 
+          <li className="pb-4 sm:pb-0"> 
             <Link
               className="cursor-pointer"
               to="contact"
