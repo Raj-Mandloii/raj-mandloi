@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/raj-mandloi/static/css/main.addd872d.css",
-    "main.js": "/raj-mandloi/static/js/main.6d17ca4e.js",
-    "static/media/shaadivines.png": "/raj-mandloi/static/media/shaadivines.d36f7e7c07f85dcb8323.png",
-    "static/media/carwash.png": "/raj-mandloi/static/media/carwash.f86e179fbb3edf62a797.png",
+    "main.css": "/raj-mandloi/static/css/main.f1eeea97.css",
+    "main.js": "/raj-mandloi/static/js/main.ecfa17fc.js",
+    "static/media/shaadivines.png": "/raj-mandloi/static/media/shaadivines.bd479301a43ffc40a0fc.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.3f9b56c61fd9c1fccb37.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.ed0bd09d0e6d803436c2.png",
     "static/media/teerex-home.png": "/raj-mandloi/static/media/teerex-home.ea75b112686ad1f542ec.png",
     "static/media/e-com.png": "/raj-mandloi/static/media/e-com.07e59d4702ecf78fd2ae.png",
+    "static/media/carwash.png": "/raj-mandloi/static/media/carwash.a03568f16e967e766753.png",
     "static/media/whatsapp.png": "/raj-mandloi/static/media/whatsapp.60b0b9ea9754f828acae.png",
     "static/media/next-chat.png": "/raj-mandloi/static/media/next-chat.adc57b8619dad4824182.png",
     "static/media/profile.jpg": "/raj-mandloi/static/media/profile.253505875ded937c7845.jpg",
@@ -47,11 +47,11 @@
     "static/media/inter-vietnamese-500-normal.woff2": "/raj-mandloi/static/media/inter-vietnamese-500-normal.c15997f1d022aff0bd00.woff2",
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
-    "main.addd872d.css.map": "/raj-mandloi/static/css/main.addd872d.css.map",
-    "main.6d17ca4e.js.map": "/raj-mandloi/static/js/main.6d17ca4e.js.map"
+    "main.f1eeea97.css.map": "/raj-mandloi/static/css/main.f1eeea97.css.map",
+    "main.ecfa17fc.js.map": "/raj-mandloi/static/js/main.ecfa17fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.addd872d.css",
-    "static/js/main.6d17ca4e.js"
+    "static/css/main.f1eeea97.css",
+    "static/js/main.ecfa17fc.js"
   ]
 }
