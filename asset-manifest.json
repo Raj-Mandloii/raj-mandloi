@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raj-mandloi/static/css/main.f1eeea97.css",
-    "main.js": "/raj-mandloi/static/js/main.ecfa17fc.js",
+    "main.js": "/raj-mandloi/static/js/main.6aeb0c70.js",
     "static/media/shaadivines.png": "/raj-mandloi/static/media/shaadivines.bd479301a43ffc40a0fc.png",
     "static/media/clima.png": "/raj-mandloi/static/media/clima.3f9b56c61fd9c1fccb37.png",
     "static/media/maxfasion.png": "/raj-mandloi/static/media/maxfasion.ed0bd09d0e6d803436c2.png",
@@ -48,10 +48,10 @@
     "index.html": "/raj-mandloi/index.html",
     "static/media/phone-svgrepo-com.svg": "/raj-mandloi/static/media/phone-svgrepo-com.d8c6a8f1e5c343603bb6bd3bc9814b86.svg",
     "main.f1eeea97.css.map": "/raj-mandloi/static/css/main.f1eeea97.css.map",
-    "main.ecfa17fc.js.map": "/raj-mandloi/static/js/main.ecfa17fc.js.map"
+    "main.6aeb0c70.js.map": "/raj-mandloi/static/js/main.6aeb0c70.js.map"
   },
   "entrypoints": [
     "static/css/main.f1eeea97.css",
-    "static/js/main.ecfa17fc.js"
+    "static/js/main.6aeb0c70.js"
   ]
 }
