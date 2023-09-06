@@ -21,16 +21,7 @@ function Projects() {
           <Cards data={projectDetails} />
         </div>
       </section>
-      <div className="flex justify-center mt-6">
-        <a
-          target="_blank"
-          href="https://github.com/Raj-Mandloii?tab=repositories"
-        >
-          <button className="rounded-full hover:rounded border-4 border-indigo-500/100 px-6 py-1 text-white">
-            More Projects »
-          </button>
-        </a>
-      </div>
+     
     </main>
   );
 }

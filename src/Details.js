@@ -242,7 +242,7 @@ export const freelancingProjects = [
     detailImages: [shaadivines],
     description: `Shaadi Vines is a blend the beauty of weddings with the power of technology. We are passionate about transforming the wedding experience for couples and their guests, creating unforgettable moments and simplifying the planning process.`,
     description2: `Worked mainly on UI, Budget-Planning section, templates.`,
-    techstack: `React, Next.js, Material-UI`,
+    techstack: `React, Next.js, Material-UI, Tailwind CSS`,
     previewLink: "https://www.shaadivines.com/",
   },
   {
